@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="index, follow">
+<title>SoApps — legal</title>
+<!--
+  Static legal pages for SoApps apps.
+
+  No trackers, no analytics, no cookies, no external fonts, no external CSS or
+  JS. Every page here is a single self-contained file, and each one says so in
+  its own text - so a host that injects anything would make the page contradict
+  itself. That is the one disqualifying property for a host of this site.
+
+  .nojekyll at the repository root keeps GitHub Pages from running a Jekyll
+  build, so the tree is served exactly as committed.
+-->
+<style>
+  :root {
+    --ink: #24131b; --ink-2: #654b57; --bg: #fffafb;
+    --surface: #fff; --brand: #cf245b; --line: #eddde4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #fff7fa; --ink-2: #decbd3; --bg: #130e13;
+      --surface: #201820; --brand: #ff7ca6; --line: #3b2c35;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 20px 72px; background: var(--bg); color: var(--ink);
+    font: 16px/1.62 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          system-ui, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 1.6rem; letter-spacing: -.02em; margin: 0 0 .25rem; }
+  h2 { font-size: 1.05rem; margin: 2rem 0 .5rem; }
+  p { color: var(--ink-2); }
+  ul { padding-left: 1.1rem; }
+  li { margin: .4rem 0; color: var(--ink-2); }
+  a { color: var(--brand); }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--line); font-size: .9rem; color: var(--ink-2); }
+</style>
+</head>
+<body>
+<main>
+  <h1>SoApps — legal</h1>
+  <p>Privacy policies and terms of use for SoApps applications.</p>
+
+  <h2>Foundation Match</h2>
+  <ul>
+    <li><a href="foundation-match/privacy/">Privacy policy</a></li>
+    <li><a href="foundation-match/terms/">Terms of use</a></li>
+  </ul>
+
+  <footer>
+    Published by Olivier Chicoineau, Avenida 327, 08860 Castelldefels, Spain.<br>
+    <a href="mailto:o.chicoineau@gmail.com">o.chicoineau@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>

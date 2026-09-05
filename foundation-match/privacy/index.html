@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="index, follow">
+<title>Privacy Policy — Foundation Match</title>
+<!--
+  Standalone. No trackers, no analytics, no external fonts, no external CSS or
+  JS, no cookies. Everything needed is in this one file, so it can be dropped
+  on any static host.
+
+  Not yet hosted. See docs/HOSTING.md for the minimum requirement.
+-->
+<style>
+  :root {
+    --ink: #24131b; --ink-2: #654b57; --bg: #fffafb;
+    --surface: #fff; --brand: #cf245b; --line: #eddde4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #fff7fa; --ink-2: #decbd3; --bg: #130e13;
+      --surface: #201820; --brand: #ff7ca6; --line: #3b2c35;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 32px 20px 72px; background: var(--bg); color: var(--ink);
+    font: 16px/1.62 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          system-ui, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 1.75rem; line-height: 1.2; letter-spacing: -.02em; margin: 0 0 .25rem; }
+  h2 { font-size: 1.12rem; margin: 2.25rem 0 .6rem; letter-spacing: -.01em; }
+  h3 { font-size: 1rem; margin: 1.5rem 0 .4rem; }
+  p, li { color: var(--ink-2); }
+  li { margin: .3rem 0; }
+  .updated { color: var(--ink-2); font-size: .9rem; margin: 0 0 1.5rem; }
+  .lede {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 14px; padding: 16px 18px; margin: 1.5rem 0;
+  }
+  .lede p { color: var(--ink); margin: 0; font-weight: 600; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .94rem; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--ink); font-weight: 700; }
+  td { color: var(--ink-2); }
+  .wrap { overflow-x: auto; }
+  strong { color: var(--ink); }
+  a { color: var(--brand); }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--line); font-size: .9rem; color: var(--ink-2); }
+  .todo {
+    background: #fff3cd; color: #4a3b00; border: 2px solid #d9a400;
+    border-radius: 12px; padding: 14px 16px; margin: 0 0 2rem; font-size: .93rem;
+  }
+  .todo strong { color: #4a3b00; }
+</style>
+</head>
+<body>
+<main>
+
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">Foundation Match &middot; Last updated 5 September 2026</p>
+
+  <div class="lede">
+    <p>Foundation Match runs entirely on your phone. It has no account, no
+    server, and no permission to use the internet. Nothing you do in the app is
+    sent anywhere, because the app has no way to send it.</p>
+  </div>
+
+  <h2>Who we are</h2>
+  <p>This app is published by Olivier Chicoineau, Avenida 327, 08860 Castelldefels, Spain. For any
+  question about privacy, write to <strong>o.chicoineau@gmail.com</strong>.</p>
+
+  <h2>What we collect</h2>
+  <p><strong>Nothing.</strong> No personal data is transmitted off your device,
+  to us or to anyone else. There is no server to receive it, and the app holds
+  no internet permission.</p>
+
+  <p>Three things are stored <em>on your own phone</em>, in the app's private
+  storage, and never leave it:</p>
+
+  <div class="wrap">
+  <table>
+    <tr><th>Stored</th><th>What it is</th></tr>
+    <tr><td>Saved shades</td><td>Identifiers of shades from the app's built-in catalogue</td></tr>
+    <tr><td>Recent searches</td><td>Identifiers of up to 8 shades you last looked at</td></tr>
+    <tr><td>Language</td><td>A language code, such as <code>en</code>, <code>fr</code> or <code>es</code></td></tr>
+  </table>
+  </div>
+
+  <p>These identify <em>products</em>, not you. They contain no name, account,
+  contact details, device identifier or location. Uninstalling the app deletes
+  them, and the app is configured to keep them out of Android's cloud backup.</p>
+
+  <h2>The camera</h2>
+  <p>The app uses the camera in two places. <strong>Neither one takes a
+  photograph.</strong> Both analyse the live preview in memory and discard the
+  frames as they go. No image file is ever created.</p>
+
+  <h3>Scanning a product label</h3>
+  <ul>
+    <li>Text is read from the preview <strong>entirely on your device</strong>.
+        The recogniser's model is bundled inside the app — it downloads nothing
+        and cannot, because the app has no internet permission.</li>
+    <li>What leaves the camera screen is <strong>the recognised words and any
+        barcode digits</strong> — text, nothing more.</li>
+    <li>That text is used only to search the app's built-in catalogue. It is
+        held in memory while you are on the screen, then discarded. It is never
+        written to storage.</li>
+  </ul>
+
+  <h3>Estimating skin depth from a selfie</h3>
+  <ul>
+    <li>Six small patches of colour are sampled from fixed positions in the
+        frame. The middle colour of each patch is taken, and the six are turned
+        into a depth estimate from 1 to 10.</li>
+    <li><strong>The picture is discarded immediately.</strong> It is never
+        saved, never sent, and never leaves the device. What leaves the camera
+        screen is six colour values — numbers.</li>
+    <li>The estimate itself is <strong>not saved either</strong>, in this or any
+        later session.</li>
+  </ul>
+
+  <p><strong>This is not biometric processing, and the app is built so that it
+  cannot become so.</strong> The app contains no face detection or face
+  recognition model of any kind — not a disabled one; none is shipped. It does
+  not locate your face, detect facial landmarks or measure facial geometry. It
+  <strong>cannot tell one person from another</strong>, cannot recognise you,
+  and produces no identifier or template. What it produces is a depth from 1
+  to 10 and a colour swatch to show you what it read.</p>
+
+  <p>That estimate is an estimate of colour. It is not a measurement, and it is
+  not a dermatological, medical or health assessment of any kind.</p>
+
+  <h3>Camera permission</h3>
+  <p>Android asks for camera permission the first time you use one of these two
+  features, not at install. Refusing costs you nothing but those two shortcuts —
+  everything in the app can be reached by typing instead. You can revoke it at
+  any time in Android settings. The app declares no storage permission, because
+  it stores no images.</p>
+
+  <h2>What the app does not do</h2>
+  <ul>
+    <li>No account, no sign-in, no profile.</li>
+    <li>No analytics, telemetry, crash reporting or usage tracking of our own.
+        The app has an analytics interface and the version that ships does
+        nothing at all when called: nothing is recorded and nothing is sent.
+        See the note on third-party components below.</li>
+    <li>No advertising, no ad SDK, no advertising identifier.</li>
+    <li>No location, contacts, microphone, files or photo library access.</li>
+    <li>No cookies and no web tracking. The interface is rendered locally from
+        the app package, not loaded from a website.</li>
+    <li>No sale or sharing of data — there is no data leaving the device to
+        sell or share.</li>
+    <li><strong>No internet permission at all.</strong> This is enforced by
+        Android, not by our good intentions.</li>
+  </ul>
+
+  <h2>Third-party components</h2>
+  <p>The app includes third-party software libraries for the camera, on-device
+  text recognition and barcode reading. <strong>None of them sends anything
+  anywhere in this app</strong>, because none of them can: there is no internet
+  permission. The text recogniser's model ships inside the app and runs
+  offline.</p>
+
+  <p>Being complete about that: the text recogniser also brings Google's own
+  telemetry and scheduling components with it. The two network permissions they
+  ask for are <strong>explicitly removed</strong> from this app's manifest, and
+  a build check fails if either comes back. The scheduling components are still
+  packaged, because the recogniser depends on them &mdash; not because this app
+  uses them. <strong>They cannot send anything, because there is no internet
+  permission</strong>, and that is enforced by Android rather than by
+  configuration. Whether they write anything into the app's own private storage
+  has not been checked on a device; if they did, it could still never leave your
+  phone, and clearing the app's storage or uninstalling would remove it.</p>
+
+  <h2>Shopping links</h2>
+  <p>The app does not currently link to any retailer, and shows &ldquo;no
+  retailer for your region yet&rdquo; instead. If retailer links are added
+  later, tapping one would open your own browser and leave the app; what happens
+  after that would be governed by that retailer's privacy policy. This policy
+  will be updated before any such link ships.</p>
+
+  <h2>Children</h2>
+  <p>The app is not directed at children. It collects nothing, so it collects
+  nothing from children either.</p>
+
+  <h2>Your rights</h2>
+  <p>Because nothing leaves your device, there is no copy of your data for
+  anyone to disclose, export, correct or erase on request. The data described
+  above is on your phone, under your control:</p>
+  <ul>
+    <li><strong>See it or change it</strong> — saved shades can be removed one
+        at a time in the app, and recent searches have a &ldquo;Clear&rdquo;
+        control.</li>
+    <li><strong>Erase all of it</strong> — clear the app's storage in Android
+        settings, or uninstall the app.</li>
+  </ul>
+  <p>Rights under the UK GDPR and EU GDPR — access, rectification, erasure,
+  restriction, portability and objection — apply to personal data held by a
+  controller. Olivier Chicoineau holds none. You are welcome to write to
+  o.chicoineau@gmail.com regardless, and we will answer.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If a future version of the app changes what it does — adds a network
+  feature, analytics, or retailer links — this policy will be updated
+  <em>before</em> that version is published, and the change described here.</p>
+
+  <footer>
+    Olivier Chicoineau &middot; Avenida 327, 08860 Castelldefels, Spain &middot; o.chicoineau@gmail.com<br>
+    This policy is governed by Spanish law.<br>
+    <a href="../terms/">Terms of use</a>
+  </footer>
+
+</main>
+</body>
+</html>
