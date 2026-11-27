@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="index, follow">
+<title>Privacy Policy — VitaFolio</title>
+<!-- Standalone: no trackers, no analytics, no cookies, no external fonts, CSS, JS or images. Source of truth:
+     vitafolio/docs/public — copy to soapps-legal/vitafolio/. The copy bundled in the app (public/privacypolicy.html)
+     is generated from this file by scripts/legal/sync-privacy.mjs; src/lib/legal.test.ts checks both. -->
+<style>
+  :root { --ink: #1e1c19; --ink-2: #5f594f; --bg: #fbf8f2; --surface: #fffdf9; --brand: #7a2337; --line: #e6dfd1; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #fbf8f2; --ink-2: #d3caba; --bg: #151310; --surface: #1e1b17; --brand: #dc929e; --line: #3a352e; } }
+  * { box-sizing: border-box; }
+  html { background: var(--bg); }
+  body { margin: 0; padding: 32px 20px 72px; background: var(--bg); color: var(--ink); font: 16px/1.62 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif; -webkit-text-size-adjust: 100%; overflow-wrap: break-word; }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; font-size: 2rem; line-height: 1.15; margin: 0 0 .25rem; hyphens: auto; }
+  h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; font-size: 1.3rem; line-height: 1.25; margin: 2.25rem 0 .6rem; border-top: 1px solid var(--line); padding-top: 1.25rem; hyphens: auto; }
+  h3 { font-size: 1rem; color: var(--ink); margin: 1.4rem 0 .4rem; }
+  p, li { color: var(--ink-2); } li { margin: .3rem 0; } ul { padding-left: 1.25rem; }
+  .updated { color: var(--ink-2); font-size: .9rem; margin: 0 0 1.5rem; }
+  .lede { background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--brand); border-radius: 8px; padding: 14px 16px; margin: 1.5rem 0; }
+  .lede p { color: var(--ink); margin: 0; font-weight: 600; }
+  strong { color: var(--ink); } a { color: var(--brand); } code { font-size: .92em; }
+  nav.lang { display: flex; flex-wrap: wrap; gap: .35rem 1rem; font-size: .95rem; margin-bottom: 1.5rem; }
+  section + section { margin-top: 3.5rem; padding-top: 2rem; border-top: 3px double var(--line); }
+  .top { font-size: .9rem; margin: 2rem 0 0; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--line); font-size: .9rem; color: var(--ink-2); }
+  @media (max-width: 30rem) { body { padding: 24px 16px 56px; } h1 { font-size: 1.6rem; } h2 { font-size: 1.2rem; } }
+</style>
+</head>
+<body>
+<main>
+<nav class="lang" id="top" aria-label="Language"><a href="#en" hreflang="en">English</a><a href="#fr" hreflang="fr">Français</a><a href="#es" hreflang="es">Español</a><a href="#de" hreflang="de">Deutsch</a><a href="#it" hreflang="it">Italiano</a></nav>
+
+<section id="en" lang="en">
+<h1>Privacy Policy — VitaFolio</h1>
+<p class="updated">Last updated: 27 November 2026 · <a href="../terms/">Terms of use</a></p>
+<div class="lede"><p>VitaFolio keeps and organises your own health documents. Your record is hosted in the European Union. We do not sell your data, we show no advertising and use no trackers, and your data is not used to train AI models. You can export or delete everything from the app at any time.</p></div>
+
+<h2>1. Who is responsible for your data</h2>
+<p>VitaFolio is operated by <strong>Olivier Chicoineau</strong>, an individual (not a company), Avenida 327, 6, 08860 Castelldefels, Spain. He is the controller of your personal data within the meaning of Article 4(7) of the General Data Protection Regulation (GDPR) — “we” in this policy.</p>
+<p>Privacy and data-protection contact: <a href="mailto:o.chicoineau@gmail.com">o.chicoineau@gmail.com</a>.</p>
+<p>No data protection officer has been designated, as none is required at our current scale (Article 37 GDPR); write to the controller directly.</p>
+
+<h2>2. What VitaFolio is</h2>
+<p>VitaFolio is a personal health record, available as an Android app, an iPhone app (currently in beta) and a web app. It keeps your health documents, reads the values they contain when you ask it to, and prepares summaries you can share with a doctor. It organises and displays information: it gives no diagnosis, no treatment advice and no risk assessment.</p>
+
+<h2>3. The data we process</h2>
+<ul>
+<li><strong>Account:</strong> your e-mail address. You sign in with a 6-digit code (and a link) that Supabase Auth sends to that address; there is no password.</li>
+<li><strong>Profile (optional):</strong> name, year of birth, sex, countries, language, units, blood type, emergency contact (name and phone number), smoking, alcohol and physical activity.</li>
+<li><strong>Health data</strong> (a special category of data, Article 9 GDPR): documents and their original files (lab reports, imaging, letters, discharge summaries, prescriptions, vaccination records and others), lab results, conditions, past illnesses, surgeries, hospital stays, allergies, medicines and reminders (with your “Taken” / “Skipped” answers), vaccinations, family history, life events (for example travel, diet, pregnancy or illness), measurements (blood pressure, weight, resting heart rate, blood glucose) and the summaries you share.</li>
+<li><strong>Values from Health Connect or Apple Health</strong>, only if you connect them (section 8).</li>
+<li><strong>Subscription:</strong> plan, renewal date, store and subscription events (section 12).</li>
+<li><strong>Share history:</strong> the date and language of each view of a summary link (section 10).</li>
+<li><strong>Web reminders (optional):</strong> your browser’s push subscription and a 14-day queue of reminder times (section 11).</li>
+<li><strong>Usage counters:</strong> the number of AI calls and tokens per feature and per date, used to apply fair-use limits. They contain no content.</li>
+<li><strong>Technical logs:</strong> our server functions log only the function name, the status, the duration and the error type — never content or health data. Our hosts keep their own technical logs (for example IP addresses) for security, for a limited period.</li>
+</ul>
+<p>Your e-mail address is needed to create an account; everything else is optional and you decide what to add. The data come from you, from Health Connect or Apple Health if you connect them, and, for a subscription, from Google Play.</p>
+
+<h2>4. Why we use your data, and on what legal basis</h2>
+<ul>
+<li><strong>Providing your account and the service</strong> (sign-in, storing and showing your record, summaries, sharing links, reminders, fair-use limits, and your subscription and billing records): performance of our contract with you — Article 6(1)(b) GDPR.</li>
+<li><strong>Health data:</strong> your explicit consent (Article 9(2)(a) GDPR), which you give when you add health information to your record after being informed by this policy. You can withdraw it at any time by deleting that information or your account; this does not affect earlier processing.</li>
+<li><strong>Health Connect / Apple Health:</strong> the consent you give in the system permission screen, which you can withdraw there at any time.</li>
+<li><strong>Records of other people</strong> (section 9): the explicit consent of the person concerned, or of their parent or legal guardian, as declared by the account holder — Article 9(2)(a) GDPR.</li>
+<li><strong>Security logs:</strong> our legitimate interest in keeping the service secure — Article 6(1)(f) GDPR.</li>
+</ul>
+<p>We do not use your data for advertising or profiling, we do not sell it, and we do not use it to train AI models.</p>
+
+<h2>5. Service providers that process your data</h2>
+<p>The following providers process data on our behalf (processors). Google Play takes subscription payments under its own privacy policy.</p>
+<ul>
+<li><strong>Supabase</strong> — account, sign-in e-mails, database, file storage and server functions. Our project is hosted in the European Union: Frankfurt, Germany (AWS eu-central-1). It holds everything stored in your account. Encryption in transit (HTTPS/TLS) and at rest is provided by our host.</li>
+<li><strong>Anthropic</strong> (United States) — reads documents and translates your own free text, only through our server functions. Details below.</li>
+<li><strong>RevenueCat</strong> (United States) — manages the subscription status. It receives from us only a random account identifier (no health data, name or e-mail address), plus the purchase information from Google Play; like any purchase service, it also sees technical data such as the IP address.</li>
+<li><strong>Google Play</strong> — takes the payment for subscriptions, under Google’s own privacy policy.</li>
+<li><strong>Vercel</strong> — serves the web version of the app. It receives your IP address and standard request data, only to deliver the pages.</li>
+<li><strong>Browser push services</strong> (Google, Mozilla or Apple, depending on your browser) — only if you turn on reminders in the installed web app; they deliver the notifications (section 11).</li>
+<li><strong>GitHub</strong> (United States) — hosts these policy pages (GitHub Pages) and nothing else; it receives your IP address when you open them.</li>
+</ul>
+<h3>What is sent to Anthropic, and what is not</h3>
+<ul>
+<li>Lab reports (PDF or photo), to read the results.</li>
+<li>Photos of medicine boxes, prescriptions and health-booklet pages, to transcribe them.</li>
+<li>Any file added with “+” that your device cannot classify by itself, to classify it.</li>
+<li>For “Questions to ask your doctor”: facts about the one result concerned.</li>
+<li>Your own free text (reason for the visit, notes, event labels, questions you rewrote), to translate it into the app’s five languages when you share a summary or add a QR code to the emergency card.</li>
+</ul>
+<p>Never sent to Anthropic: values from Health Connect or Apple Health, your e-mail address, your name. Documents are sent whole: the model is instructed not to return names, identifiers or addresses found in them, but the document itself may contain them.</p>
+<p>Anthropic processes these data under its commercial terms and Data Processing Addendum, which include the EU Standard Contractual Clauses. Under those terms, Anthropic does not use API inputs or outputs to train its models and keeps them only for a limited period set by its retention policy.</p>
+<p>After reading, the original file of a lab report stays in your record until you delete it. Photos of medicine boxes, prescription images and health-booklet pages are not kept unless you tick “keep”; the prescriber’s name is kept only if you choose so.</p>
+
+<h2>6. Transfers outside the European Union</h2>
+<p>Your record is stored in the EU. Anthropic and RevenueCat are based in the United States; transfers to them are covered by the EU Standard Contractual Clauses (Article 46(2)(c) GDPR) included in their data-processing terms. You can ask us for information about these safeguards, or a copy of them.</p>
+
+<h2>7. What stays on your device</h2>
+<ul>
+<li>Barcodes and QR codes, including the code of French digital prescriptions, are decoded on your device.</li>
+<li>The text of PDF files is read on your device to sort them.</li>
+<li>Photo metadata (EXIF, which can include a location) is removed on your device before a photo is sent.</li>
+<li>The consultation brief (doctor summary) is put together on your device from your record; only your own free text is sent for translation (section 5).</li>
+<li>The summary PDF, the emergency card and the export ZIP file are built on your device. On the phone, the app writes the export, PDF or image it creates to its own temporary cache to hand it to the share sheet; the system may keep that copy until it clears the cache, and uninstalling the app removes it.</li>
+<li>The “sample data” demo record is fictional and stays on your device.</li>
+</ul>
+
+<h2>8. Health Connect and Apple Health</h2>
+<ul>
+<li>Only with your permission, VitaFolio <strong>reads</strong> four types of data from Health Connect (Android) or Apple Health (iPhone): blood pressure, weight, resting heart rate and blood glucose. It never writes to them.</li>
+<li>The first connection reads up to the last 12 months; after that, VitaFolio reads new values automatically at most every six hours when you open the app, or when you tap “Bring in new values”. Values go only into the account holder’s own record, never into another person’s.</li>
+<li>Each value is stored in your record with the name of the app or device that recorded it and the store’s record identifier (to avoid importing a value twice).</li>
+<li>These values are not sent to Anthropic, to RevenueCat or to any advertiser. A summary you choose to share can include statistics (number of readings, period, latest value, 90-day mean) of all your self-measured values, typed or imported.</li>
+<li>Disconnecting stops new imports; values already imported stay in your record until you delete them.</li>
+<li>Our use of these data complies with the Health Connect and Apple HealthKit rules, including the Health Connect Limited Use requirements: they are not used for advertising, not sold, and not used for anything other than showing them in your record and in the summaries you choose to share.</li>
+</ul>
+
+<h2>9. Records of other people</h2>
+<p>You can keep records for other people — children, parents, a partner or others — after declaring that you are entitled to do so, as their parent or legal guardian or with their consent. You are responsible for that entitlement. These people have the same rights as you (section 17): they can exercise them through the account holder or by writing to us.</p>
+
+<h2>10. Sharing a summary, and the emergency card</h2>
+<ul>
+<li>A summary link is valid for 24 hours, and you can revoke it at any time. Anyone who has the link can open the summary while it is valid, without an account.</li>
+<li>Our server keeps a hash of the link (never the link itself) and a copy of the summary until the link expires or is revoked. Revoking erases that copy at once; an expired link opens nothing and its copy is deleted. Each view is recorded (date and language — no IP address).</li>
+<li>If you tick “Include my reminder log (last 4 weeks)”, the summary also shows, for each medicine, how many of the scheduled reminders you marked “Taken” over the last 4 weeks.</li>
+<li>The emergency card is an image made on your device, which you share yourself. Once shared, copies are outside VitaFolio. If you add a QR code to the card, the QR code opens a 24-hour summary link, stored and handled exactly like the links above (its free text is translated as described in section 5).</li>
+</ul>
+
+<h2>11. Reminders</h2>
+<ul>
+<li>In the iPhone and Android apps, reminders are local notifications scheduled on your device.</li>
+<li>In the installed web app, if you turn them on, reminders use Web Push: our server stores your browser’s push subscription and a 14-day queue of reminder times, and the notification is delivered by your browser’s push service (Google, Mozilla or Apple). Its text is generic unless you choose to show the medicine’s name.</li>
+</ul>
+
+<h2>12. Subscriptions</h2>
+<p>Subscriptions (VitaFolio Plus) are currently sold only in the Android app and paid through Google Play; Google’s privacy policy covers the payment. RevenueCat manages the subscription status; it receives from us only a random account identifier (no health data, name or e-mail address), plus the purchase information from Google Play, and like any purchase service it also sees technical data such as the IP address. We store your plan, renewal date, store and subscription events.</p>
+
+<h2>13. Cookies and local storage</h2>
+<p>The app sets no cookies and uses no advertising identifier, no analytics or crash-reporting tool and no tracker. Fonts and code are served from our own origin. The app keeps your sign-in session and your settings (language, units, selected person, reminder and Health Connect status, reminder snoozes, chart display options and the sample-data state) in your device’s local storage; nothing from your record is kept there, except the sample record if you open it. This storage is strictly necessary to provide the service you ask for (ePrivacy rules). The Android app is excluded from Android’s cloud backup.</p>
+
+<h2>14. How long we keep data, and deletion</h2>
+<ul>
+<li>We keep your data while your account exists, including usage counters, subscription events and share history. You can delete any item in the app at any time.</li>
+<li>Deleting your account (Settings › Delete my account and all data) deletes all your files first, then your account and every record linked to it. If a file cannot be deleted, the account is not deleted and the app asks you to try again.</li>
+<li>Deleted data can remain in our host’s encrypted backups for a limited period before being overwritten.</li>
+<li>Records kept by Google Play and RevenueCat for billing and tax obligations follow their own policies.</li>
+<li>Exports, PDFs and images you have saved or shared outside the app, and the temporary cache copy described in section 7, are not affected.</li>
+</ul>
+
+<h2>15. Export</h2>
+<p>Settings › Export all my data gives you a ZIP file with <code>data.json</code> (profile, persons, list of documents, results, profile entries, life events, medicines, reminder answers, measurements, share history) and your original files (right to data portability, Article 20 GDPR).</p>
+
+<h2>16. Age</h2>
+<p>VitaFolio is intended for adults (18 and over). Records of children are held by a parent or legal guardian.</p>
+
+<h2>17. Your rights</h2>
+<p>You have the right of access, rectification, erasure, restriction of processing, data portability and objection, and the right to withdraw your consent at any time (Articles 7(3) and 15 to 21 GDPR). Most of them can be exercised directly in the app: edit, delete, export. Otherwise, write to <a href="mailto:o.chicoineau@gmail.com">o.chicoineau@gmail.com</a>; we answer within one month (Article 12(3) GDPR).</p>
+
+<h2>18. Complaints</h2>
+<p>You can lodge a complaint with the Spanish data-protection authority, the Agencia Española de Protección de Datos (AEPD, <a href="https://www.aepd.es">www.aepd.es</a>), or with the supervisory authority of the EU country where you live, where you work or where the alleged infringement took place (Article 77 GDPR).</p>
+
+<h2>19. No automated decisions</h2>
+<p>VitaFolio takes no decision based solely on automated processing that has legal or similarly significant effects on you (Article 22 GDPR): the app shows information; it decides nothing.</p>
+
+<h2>20. Not medical advice</h2>
+<p>VitaFolio organises and displays your information. It gives no diagnosis, no treatment advice and no risk assessment. Always consult a qualified healthcare professional; in an emergency, call 112.</p>
+
+<h2>21. Changes to this policy</h2>
+<p>We announce material changes in the app before they apply. The date at the top of this page shows the current version.</p>
+<p class="top"><a href="#top">↑ Languages</a></p>
+</section>
+
+<section id="fr" lang="fr">
+<h1>Politique de confidentialité — VitaFolio</h1>
+<p class="updated">Dernière mise à jour&nbsp;: 27 novembre 2026 · <a href="../terms/">Conditions d’utilisation</a></p>
+<div class="lede"><p>VitaFolio conserve et organise vos propres documents de santé. Votre dossier est hébergé dans l’Union européenne. Nous ne vendons pas vos données, n’affichons aucune publicité et n’utilisons aucun traceur, et vos données ne servent pas à entraîner des modèles d’IA. Vous pouvez tout exporter ou tout supprimer depuis l’application, à tout moment.</p></div>
+
+<h2>1. Qui est responsable de vos données</h2>
+<p>VitaFolio est exploité par <strong>Olivier Chicoineau</strong>, personne physique (et non une société), Avenida 327, 6, 08860 Castelldefels, Espagne. Il est le responsable du traitement de vos données personnelles au sens de l’article 4.7 du Règlement général sur la protection des données (RGPD) — «&nbsp;nous&nbsp;» dans la présente politique.</p>
+<p>Contact pour la vie privée et la protection des données&nbsp;: <a href="mailto:o.chicoineau@gmail.com">o.chicoineau@gmail.com</a>.</p>
+<p>Aucun délégué à la protection des données n’a été désigné, cette désignation n’étant pas requise à notre échelle actuelle (article 37 du RGPD)&nbsp;; écrivez directement au responsable du traitement.</p>
+
+<h2>2. Ce qu’est VitaFolio</h2>
+<p>VitaFolio est un dossier de santé personnel, disponible en application Android, en application iPhone (actuellement en bêta) et en application web. Il conserve vos documents de santé, lit les valeurs qu’ils contiennent lorsque vous le lui demandez et prépare des synthèses que vous pouvez partager avec un médecin. Il organise et affiche des informations&nbsp;: il ne pose aucun diagnostic, ne donne aucun conseil de traitement et n’évalue aucun risque.</p>
+
+<h2>3. Les données que nous traitons</h2>
+<ul>
+<li><strong>Compte&nbsp;:</strong> votre adresse e-mail. Vous vous connectez avec un code à 6 chiffres (et un lien) que Supabase Auth envoie à cette adresse&nbsp;; il n’y a pas de mot de passe.</li>
+<li><strong>Profil (facultatif)&nbsp;:</strong> nom, année de naissance, sexe, pays, langue, unités, groupe sanguin, contact d’urgence (nom et numéro de téléphone), tabac, alcool et activité physique.</li>
+<li><strong>Données de santé</strong> (catégorie particulière de données, article 9 du RGPD)&nbsp;: documents et leurs fichiers originaux (bilans biologiques, imagerie, courriers, comptes rendus d’hospitalisation, ordonnances, carnets de vaccination, etc.), résultats d’analyses, maladies, antécédents, opérations, hospitalisations, allergies, médicaments et rappels (avec vos réponses «&nbsp;Pris&nbsp;» / «&nbsp;Pas pris&nbsp;»), vaccinations, antécédents familiaux, événements de vie (par exemple voyage, alimentation, grossesse ou maladie), mesures (tension artérielle, poids, pouls au repos, glycémie) et les synthèses que vous partagez.</li>
+<li><strong>Valeurs de Health Connect ou d’Apple Santé</strong>, uniquement si vous les connectez (section 8).</li>
+<li><strong>Abonnement&nbsp;:</strong> formule, date de renouvellement, boutique et événements d’abonnement (section 12).</li>
+<li><strong>Historique des partages&nbsp;:</strong> la date et la langue de chaque consultation d’un lien de synthèse (section 10).</li>
+<li><strong>Rappels web (facultatif)&nbsp;:</strong> l’abonnement push de votre navigateur et une file de 14&nbsp;jours d’heures de rappel (section 11).</li>
+<li><strong>Compteurs d’usage&nbsp;:</strong> le nombre d’appels à l’IA et de jetons par fonction et par date, pour appliquer les limites d’usage raisonnable. Ils ne contiennent aucun contenu.</li>
+<li><strong>Journaux techniques&nbsp;:</strong> nos fonctions serveur n’enregistrent que le nom de la fonction, le statut, la durée et le type d’erreur — jamais de contenu ni de donnée de santé. Nos hébergeurs conservent leurs propres journaux techniques (par exemple les adresses IP) à des fins de sécurité, pendant une durée limitée.</li>
+</ul>
+<p>Votre adresse e-mail est nécessaire pour créer un compte&nbsp;; tout le reste est facultatif et vous décidez de ce que vous ajoutez. Les données proviennent de vous, de Health Connect ou d’Apple Santé si vous les connectez et, pour un abonnement, de Google Play.</p>
+
+<h2>4. Finalités et bases juridiques</h2>
+<ul>
+<li><strong>Fourniture de votre compte et du service</strong> (connexion, conservation et affichage de votre dossier, synthèses, liens de partage, rappels, limites d’usage raisonnable, ainsi que votre abonnement et les données de facturation)&nbsp;: exécution du contrat conclu avec vous — article 6.1.b du RGPD.</li>
+<li><strong>Données de santé&nbsp;:</strong> votre consentement explicite (article 9.2.a du RGPD), que vous donnez lorsque vous ajoutez des informations de santé à votre dossier après avoir été informé par la présente politique. Vous pouvez le retirer à tout moment en supprimant ces informations ou votre compte&nbsp;; cela ne remet pas en cause le traitement effectué auparavant.</li>
+<li><strong>Health Connect / Apple Santé&nbsp;:</strong> le consentement que vous donnez dans l’écran d’autorisation du système, que vous pouvez y retirer à tout moment.</li>
+<li><strong>Dossiers d’autres personnes</strong> (section 9)&nbsp;: le consentement explicite de la personne concernée, ou de son parent ou représentant légal, tel que déclaré par le titulaire du compte — article 9.2.a du RGPD.</li>
+<li><strong>Journaux de sécurité&nbsp;:</strong> notre intérêt légitime à assurer la sécurité du service — article 6.1.f du RGPD.</li>
+</ul>
+<p>Nous n’utilisons pas vos données à des fins de publicité ou de profilage, nous ne les vendons pas et nous ne les utilisons pas pour entraîner des modèles d’IA.</p>
+
+<h2>5. Prestataires qui traitent vos données</h2>
+<p>Les prestataires suivants traitent des données pour notre compte (sous-traitants). Google Play encaisse les paiements d’abonnement selon sa propre politique de confidentialité.</p>
+<ul>
+<li><strong>Supabase</strong> — compte, e-mails de connexion, base de données, stockage des fichiers et fonctions serveur. Notre projet est hébergé dans l’Union européenne&nbsp;: Francfort, Allemagne (AWS eu-central-1). Il contient tout ce qui est enregistré dans votre compte. Le chiffrement en transit (HTTPS/TLS) et au repos est assuré par notre hébergeur.</li>
+<li><strong>Anthropic</strong> (États-Unis) — lit les documents et traduit votre propre texte libre, uniquement via nos fonctions serveur. Détails ci-dessous.</li>
+<li><strong>RevenueCat</strong> (États-Unis) — gère le statut de l’abonnement. Il ne reçoit de notre part qu’un identifiant de compte aléatoire (ni données de santé, ni nom, ni adresse e-mail), ainsi que les informations d’achat transmises par Google Play&nbsp;; comme tout service d’achat, il voit aussi des données techniques telles que l’adresse IP.</li>
+<li><strong>Google Play</strong> — encaisse le paiement des abonnements, selon la politique de confidentialité de Google.</li>
+<li><strong>Vercel</strong> — sert la version web de l’application. Il reçoit votre adresse IP et les données standard de la requête, uniquement pour délivrer les pages.</li>
+<li><strong>Services push des navigateurs</strong> (Google, Mozilla ou Apple, selon votre navigateur) — uniquement si vous activez les rappels dans l’application web installée&nbsp;; ils délivrent les notifications (section 11).</li>
+<li><strong>GitHub</strong> (États-Unis) — héberge uniquement ces pages de politique (GitHub Pages)&nbsp;; il reçoit votre adresse IP lorsque vous les ouvrez.</li>
+</ul>
+<h3>Ce qui est envoyé à Anthropic, et ce qui ne l’est pas</h3>
+<ul>
+<li>Les bilans biologiques (PDF ou photo), pour en lire les résultats.</li>
+<li>Les photos de boîtes de médicaments, les ordonnances et les pages de carnet de santé, pour les transcrire.</li>
+<li>Tout fichier ajouté avec «&nbsp;+&nbsp;» que votre appareil ne sait pas classer seul, pour le classer.</li>
+<li>Pour «&nbsp;Questions à poser à votre médecin&nbsp;»&nbsp;: les éléments factuels du seul résultat concerné.</li>
+<li>Votre propre texte libre (motif de consultation, notes, libellés d’événements, questions que vous avez reformulées), pour le traduire dans les cinq langues de l’application lorsque vous partagez une synthèse ou ajoutez un QR code à la carte d’urgence.</li>
+</ul>
+<p>Jamais envoyés à Anthropic&nbsp;: les valeurs de Health Connect ou d’Apple Santé, votre adresse e-mail, votre nom. Les documents sont envoyés en entier&nbsp;: le modèle a pour consigne de ne pas restituer les noms, identifiants ou adresses qui y figurent, mais le document lui-même peut en contenir.</p>
+<p>Anthropic traite ces données selon ses conditions commerciales et son avenant relatif au traitement des données (Data Processing Addendum), qui incluent les clauses contractuelles types de l’UE. Selon ces conditions, Anthropic n’utilise pas les entrées ni les sorties de l’API pour entraîner ses modèles et ne les conserve que pendant une durée limitée fixée par sa politique de conservation.</p>
+<p>Après lecture, le fichier original d’un bilan reste dans votre dossier jusqu’à ce que vous le supprimiez. Les photos de boîtes, les images d’ordonnance et les pages de carnet ne sont pas conservées, sauf si vous cochez «&nbsp;garder&nbsp;»&nbsp;; le nom du prescripteur n’est conservé que si vous le choisissez.</p>
+
+<h2>6. Transferts hors de l’Union européenne</h2>
+<p>Votre dossier est stocké dans l’UE. Anthropic et RevenueCat sont établis aux États-Unis&nbsp;; les transferts vers ces sociétés sont encadrés par les clauses contractuelles types de l’UE (article 46.2.c du RGPD) incluses dans leurs conditions de traitement des données. Vous pouvez nous demander des informations sur ces garanties, ou une copie de celles-ci.</p>
+
+<h2>7. Ce qui reste sur votre appareil</h2>
+<ul>
+<li>Les codes-barres et QR codes, y compris le code des ordonnances numériques françaises, sont décodés sur votre appareil.</li>
+<li>Le texte des fichiers PDF est lu sur votre appareil pour les trier.</li>
+<li>Les métadonnées des photos (EXIF, qui peuvent inclure une localisation) sont supprimées sur votre appareil avant tout envoi.</li>
+<li>La fiche de consultation (synthèse pour le médecin) est composée sur votre appareil à partir de votre dossier&nbsp;; seul votre propre texte libre est envoyé pour traduction (section 5).</li>
+<li>Le PDF de synthèse, la carte d’urgence et le fichier ZIP d’export sont créés sur votre appareil. Sur le téléphone, l’application écrit l’export, le PDF ou l’image qu’elle crée dans son propre cache temporaire pour le transmettre au menu de partage&nbsp;; le système peut conserver cette copie jusqu’à ce qu’il vide le cache, et la désinstallation de l’application la supprime.</li>
+<li>Le dossier de démonstration «&nbsp;données d’exemple&nbsp;» est fictif et reste sur votre appareil.</li>
+</ul>
+
+<h2>8. Health Connect et Apple Santé</h2>
+<ul>
+<li>Uniquement avec votre autorisation, VitaFolio <strong>lit</strong> quatre types de données dans Health Connect (Android) ou Apple Santé (iPhone)&nbsp;: tension artérielle, poids, pouls au repos et glycémie. Il n’y écrit jamais.</li>
+<li>La première connexion lit jusqu’aux 12 derniers mois&nbsp;; ensuite, VitaFolio lit les nouvelles valeurs automatiquement au plus toutes les six heures lorsque vous ouvrez l’application, ou lorsque vous touchez «&nbsp;Récupérer les nouvelles valeurs&nbsp;». Les valeurs vont uniquement dans le dossier du titulaire du compte, jamais dans celui d’une autre personne.</li>
+<li>Chaque valeur est enregistrée dans votre dossier avec le nom de l’application ou de l’appareil qui l’a mesurée et l’identifiant de l’enregistrement dans la source (pour ne pas importer deux fois la même valeur).</li>
+<li>Ces valeurs ne sont envoyées ni à Anthropic, ni à RevenueCat, ni à aucun annonceur. Une synthèse que vous choisissez de partager peut inclure des statistiques (nombre de mesures, période, dernière valeur, moyenne sur 90&nbsp;jours) de toutes vos mesures personnelles, saisies ou importées.</li>
+<li>La déconnexion arrête les nouvelles importations&nbsp;; les valeurs déjà importées restent dans votre dossier jusqu’à ce que vous les supprimiez.</li>
+<li>Notre utilisation de ces données respecte les règles de Health Connect et d’Apple HealthKit, y compris les exigences d’utilisation limitée (Limited Use) de Health Connect&nbsp;: elles ne sont pas utilisées à des fins publicitaires, ne sont pas vendues et ne servent qu’à être affichées dans votre dossier et dans les synthèses que vous choisissez de partager.</li>
+</ul>
+
+<h2>9. Dossiers d’autres personnes</h2>
+<p>Vous pouvez tenir le dossier d’autres personnes — enfants, parents, conjoint ou autres — après avoir déclaré que vous y êtes habilité, en tant que parent ou représentant légal, ou avec leur consentement. Vous êtes responsable de cette habilitation. Ces personnes disposent des mêmes droits que vous (section 17)&nbsp;: elles peuvent les exercer par l’intermédiaire du titulaire du compte ou en nous écrivant.</p>
+
+<h2>10. Partage d’une synthèse et carte d’urgence</h2>
+<ul>
+<li>Un lien de synthèse est valable 24&nbsp;heures et vous pouvez le révoquer à tout moment. Toute personne disposant du lien peut ouvrir la synthèse pendant sa validité, sans compte.</li>
+<li>Notre serveur conserve une empreinte (hachage) du lien — jamais le lien lui-même — et une copie de la synthèse jusqu’à l’expiration ou la révocation du lien. La révocation efface immédiatement cette copie&nbsp;; un lien expiré n’ouvre rien et sa copie est supprimée. Chaque consultation est enregistrée (date et langue — pas d’adresse IP).</li>
+<li>Si vous cochez «&nbsp;Inclure mon suivi des rappels (4 dernières semaines)&nbsp;», la synthèse indique aussi, pour chaque médicament, combien des rappels prévus vous avez marqués «&nbsp;Pris&nbsp;» au cours des 4 dernières semaines.</li>
+<li>La carte d’urgence est une image créée sur votre appareil, que vous partagez vous-même. Une fois partagées, les copies sont hors de VitaFolio. Si vous ajoutez un QR code à la carte, il ouvre un lien de synthèse valable 24&nbsp;heures, conservé et traité exactement comme les liens ci-dessus (son texte libre est traduit comme décrit à la section 5).</li>
+</ul>
+
+<h2>11. Rappels</h2>
+<ul>
+<li>Dans les applications iPhone et Android, les rappels sont des notifications locales programmées sur votre appareil.</li>
+<li>Dans l’application web installée, si vous les activez, les rappels utilisent Web Push&nbsp;: notre serveur enregistre l’abonnement push de votre navigateur et une file de 14&nbsp;jours d’heures de rappel, et la notification est délivrée par le service push de votre navigateur (Google, Mozilla ou Apple). Son texte est générique, sauf si vous choisissez d’afficher le nom du médicament.</li>
+</ul>
+
+<h2>12. Abonnements</h2>
+<p>Les abonnements (VitaFolio Plus) ne sont pour l’instant vendus que dans l’application Android et payés via Google Play&nbsp;; la politique de confidentialité de Google couvre le paiement. RevenueCat gère le statut de l’abonnement&nbsp;; il ne reçoit de notre part qu’un identifiant de compte aléatoire (ni données de santé, ni nom, ni adresse e-mail), ainsi que les informations d’achat transmises par Google Play, et, comme tout service d’achat, il voit aussi des données techniques telles que l’adresse IP. Nous enregistrons votre formule, la date de renouvellement, la boutique et les événements d’abonnement.</p>
+
+<h2>13. Cookies et stockage local</h2>
+<p>L’application ne dépose aucun cookie et n’utilise ni identifiant publicitaire, ni outil d’analyse d’audience ou de rapport de plantage, ni traceur. Les polices et le code sont servis depuis notre propre origine. L’application conserve votre session de connexion et vos réglages (langue, unités, personne sélectionnée, état des rappels et de Health Connect, rappels reportés, options d’affichage des graphiques et état des données d’exemple) dans le stockage local de votre appareil&nbsp;; rien de votre dossier n’y est conservé, sauf le dossier d’exemple si vous l’ouvrez. Ce stockage est strictement nécessaire à la fourniture du service que vous demandez (règles ePrivacy). L’application Android est exclue de la sauvegarde cloud d’Android.</p>
+
+<h2>14. Durée de conservation et suppression</h2>
+<ul>
+<li>Nous conservons vos données tant que votre compte existe, y compris les compteurs d’usage, les événements d’abonnement et l’historique des partages. Vous pouvez supprimer chaque élément dans l’application à tout moment.</li>
+<li>La suppression du compte (Réglages › Supprimer mon compte et toutes mes données) efface d’abord tous vos fichiers, puis votre compte et chaque donnée qui y est liée. Si un fichier ne peut pas être supprimé, le compte n’est pas supprimé et l’application vous invite à réessayer.</li>
+<li>Les données supprimées peuvent subsister dans les sauvegardes chiffrées de notre hébergeur pendant une durée limitée, avant d’être écrasées.</li>
+<li>Les données conservées par Google Play et RevenueCat pour leurs obligations de facturation et fiscales relèvent de leurs propres politiques.</li>
+<li>Les exports, PDF et images que vous avez enregistrés ou partagés hors de l’application, ainsi que la copie temporaire en cache décrite à la section 7, ne sont pas concernés.</li>
+</ul>
+
+<h2>15. Export</h2>
+<p>Réglages › Exporter toutes mes données vous fournit un fichier ZIP contenant <code>data.json</code> (profil, personnes, liste des documents, résultats, éléments du profil, événements de vie, médicaments, réponses aux rappels, mesures, historique des partages) et vos fichiers originaux (droit à la portabilité, article 20 du RGPD).</p>
+
+<h2>16. Âge</h2>
+<p>VitaFolio s’adresse aux adultes (18&nbsp;ans et plus). Le dossier d’un enfant est tenu par un parent ou un représentant légal.</p>
+
+<h2>17. Vos droits</h2>
+<p>Vous disposez d’un droit d’accès, de rectification, d’effacement, de limitation du traitement, de portabilité et d’opposition, ainsi que du droit de retirer votre consentement à tout moment (articles 7.3 et 15 à 21 du RGPD). La plupart s’exercent directement dans l’application&nbsp;: modifier, supprimer, exporter. Sinon, écrivez à <a href="mailto:o.chicoineau@gmail.com">o.chicoineau@gmail.com</a>&nbsp;; nous répondons dans un délai d’un mois (article 12.3 du RGPD).</p>
+
+<h2>18. Réclamations</h2>
+<p>Vous pouvez introduire une réclamation auprès de l’autorité espagnole de protection des données, l’Agencia Española de Protección de Datos (AEPD, <a href="https://www.aepd.es">www.aepd.es</a>), ou auprès de l’autorité de contrôle du pays de l’UE où vous résidez, où vous travaillez ou où la violation alléguée a eu lieu (article 77 du RGPD).</p>
+
+<h2>19. Aucune décision automatisée</h2>
+<p>VitaFolio ne prend aucune décision fondée exclusivement sur un traitement automatisé produisant des effets juridiques ou vous affectant de manière significative (article 22 du RGPD)&nbsp;: l’application affiche des informations&nbsp;; elle ne décide rien.</p>
+
+<h2>20. Pas un avis médical</h2>
+<p>VitaFolio organise et affiche vos informations. Il ne pose aucun diagnostic, ne donne aucun conseil de traitement et n’évalue aucun risque. Consultez toujours un professionnel de santé qualifié&nbsp;; en cas d’urgence, appelez le 112.</p>
+
+<h2>21. Modifications de cette politique</h2>
+<p>Nous annonçons toute modification importante dans l’application avant qu’elle ne s’applique. La date en haut de cette page indique la version en vigueur.</p>
+<p class="top"><a href="#top">↑ Langues</a></p>
+</section>
+
+<section id="es" lang="es">
+<h1>Política de privacidad — VitaFolio</h1>
+<p class="updated">Última actualización: 27 de noviembre de 2026 · <a href="../terms/">Condiciones de uso</a></p>
+<div class="lede"><p>VitaFolio guarda y organiza tus propios documentos de salud. Tu historial está alojado en la Unión Europea. No vendemos tus datos, no mostramos publicidad ni usamos rastreadores, y tus datos no se usan para entrenar modelos de IA. Puedes exportarlo o eliminarlo todo desde la app en cualquier momento.</p></div>
+
+<h2>1. Quién es responsable de tus datos</h2>
+<p>VitaFolio es gestionada por <strong>Olivier Chicoineau</strong>, persona física (no una sociedad), Avenida 327, 6, 08860 Castelldefels, España. Es el responsable del tratamiento de tus datos personales en el sentido del artículo 4.7 del Reglamento General de Protección de Datos (RGPD) — «nosotros» en esta política.</p>
+<p>Contacto de privacidad y protección de datos: <a href="mailto:o.chicoineau@gmail.com">o.chicoineau@gmail.com</a>.</p>
+<p>No se ha designado un delegado de protección de datos, ya que no es obligatorio con nuestra escala actual (artículo 37 del RGPD); escribe directamente al responsable del tratamiento.</p>
+
+<h2>2. Qué es VitaFolio</h2>
+<p>VitaFolio es un historial de salud personal, disponible como app para Android, app para iPhone (actualmente en beta) y app web. Guarda tus documentos de salud, lee los valores que contienen cuando se lo pides y prepara resúmenes que puedes compartir con un médico. Organiza y muestra información: no hace diagnósticos, no da consejos de tratamiento ni evalúa riesgos.</p>
+
+<h2>3. Los datos que tratamos</h2>
+<ul>
+<li><strong>Cuenta:</strong> tu dirección de e-mail. Inicias sesión con un código de 6 cifras (y un enlace) que Supabase Auth envía a esa dirección; no hay contraseña.</li>
+<li><strong>Perfil (opcional):</strong> nombre, año de nacimiento, sexo, países, idioma, unidades, grupo sanguíneo, contacto de emergencia (nombre y teléfono), tabaco, alcohol y actividad física.</li>
+<li><strong>Datos de salud</strong> (categoría especial de datos, artículo 9 del RGPD): documentos y sus archivos originales (análisis, pruebas de imagen, cartas, informes de alta, recetas, cartillas de vacunación, etc.), resultados de análisis, enfermedades, antecedentes, operaciones, hospitalizaciones, alergias, medicamentos y recordatorios (con tus respuestas «Tomado» / «No tomado»), vacunas, antecedentes familiares, acontecimientos vitales (por ejemplo viajes, dieta, embarazo o enfermedad), mediciones (tensión arterial, peso, frecuencia cardiaca en reposo, glucosa) y los resúmenes que compartes.</li>
+<li><strong>Valores de Health Connect o Apple Salud</strong>, solo si los conectas (sección 8).</li>
+<li><strong>Suscripción:</strong> plan, fecha de renovación, tienda y eventos de la suscripción (sección 12).</li>
+<li><strong>Historial de compartidos:</strong> la fecha y el idioma de cada visualización de un enlace de resumen (sección 10).</li>
+<li><strong>Recordatorios web (opcional):</strong> la suscripción push de tu navegador y una cola de 14 días con las horas de los recordatorios (sección 11).</li>
+<li><strong>Contadores de uso:</strong> el número de llamadas a la IA y de tokens por función y por fecha, para aplicar los límites de uso razonable. No contienen ningún contenido.</li>
+<li><strong>Registros técnicos:</strong> nuestras funciones de servidor solo registran el nombre de la función, el estado, la duración y el tipo de error — nunca contenido ni datos de salud. Nuestros proveedores de alojamiento conservan sus propios registros técnicos (por ejemplo, direcciones IP) por seguridad, durante un periodo limitado.</li>
+</ul>
+<p>Tu dirección de e-mail es necesaria para crear una cuenta; todo lo demás es opcional y tú decides qué añades. Los datos proceden de ti, de Health Connect o Apple Salud si los conectas y, en caso de suscripción, de Google Play.</p>
+
+<h2>4. Finalidades y bases jurídicas</h2>
+<ul>
+<li><strong>Prestar tu cuenta y el servicio</strong> (inicio de sesión, guardar y mostrar tu historial, resúmenes, enlaces para compartir, recordatorios, límites de uso razonable, y tu suscripción y los registros de facturación): ejecución del contrato contigo — artículo 6.1.b) del RGPD.</li>
+<li><strong>Datos de salud:</strong> tu consentimiento explícito (artículo 9.2.a) del RGPD), que das cuando añades información de salud a tu historial tras haber sido informado por esta política. Puedes retirarlo en cualquier momento eliminando esa información o tu cuenta; esto no afecta al tratamiento realizado antes.</li>
+<li><strong>Health Connect / Apple Salud:</strong> el consentimiento que das en la pantalla de permisos del sistema, donde puedes retirarlo en cualquier momento.</li>
+<li><strong>Historiales de otras personas</strong> (sección 9): el consentimiento explícito de la persona interesada, o de su progenitor o tutor legal, según declara el titular de la cuenta — artículo 9.2.a) del RGPD.</li>
+<li><strong>Registros de seguridad:</strong> nuestro interés legítimo en mantener la seguridad del servicio — artículo 6.1.f) del RGPD.</li>
+</ul>
+<p>No usamos tus datos para publicidad ni para elaborar perfiles, no los vendemos y no los usamos para entrenar modelos de IA.</p>
+
+<h2>5. Proveedores que tratan tus datos</h2>
+<p>Los siguientes proveedores tratan datos por cuenta nuestra (encargados del tratamiento). Google Play cobra los pagos de las suscripciones conforme a su propia política de privacidad.</p>
+<ul>
+<li><strong>Supabase</strong> — cuenta, e-mails de inicio de sesión, base de datos, almacenamiento de archivos y funciones de servidor. Nuestro proyecto está alojado en la Unión Europea: Fráncfort, Alemania (AWS eu-central-1). Contiene todo lo que se guarda en tu cuenta. El cifrado en tránsito (HTTPS/TLS) y en reposo lo proporciona nuestro proveedor de alojamiento.</li>
+<li><strong>Anthropic</strong> (Estados Unidos) — lee los documentos y traduce tu propio texto libre, solo a través de nuestras funciones de servidor. Detalles más abajo.</li>
+<li><strong>RevenueCat</strong> (Estados Unidos) — gestiona el estado de la suscripción. De nosotros solo recibe un identificador de cuenta aleatorio (sin datos de salud, nombre ni e-mail), además de la información de compra de Google Play; como cualquier servicio de compras, también ve datos técnicos como la dirección IP.</li>
+<li><strong>Google Play</strong> — cobra el pago de las suscripciones, conforme a la política de privacidad de Google.</li>
+<li><strong>Vercel</strong> — sirve la versión web de la app. Recibe tu dirección IP y los datos estándar de la solicitud, solo para entregar las páginas.</li>
+<li><strong>Servicios push de los navegadores</strong> (Google, Mozilla o Apple, según tu navegador) — solo si activas los recordatorios en la app web instalada; entregan las notificaciones (sección 11).</li>
+<li><strong>GitHub</strong> (Estados Unidos) — aloja únicamente estas páginas de políticas (GitHub Pages); recibe tu dirección IP cuando las abres.</li>
+</ul>
+<h3>Qué se envía a Anthropic y qué no</h3>
+<ul>
+<li>Los análisis (PDF o foto), para leer los resultados.</li>
+<li>Las fotos de cajas de medicamentos, las recetas y las páginas de la cartilla de salud, para transcribirlas.</li>
+<li>Cualquier archivo añadido con «+» que tu dispositivo no sepa clasificar por sí solo, para clasificarlo.</li>
+<li>Para «Preguntas para tu médico»: los datos del único resultado de que se trate.</li>
+<li>Tu propio texto libre (motivo de la consulta, notas, nombres de acontecimientos, preguntas que reformulaste), para traducirlo a los cinco idiomas de la app cuando compartes un resumen o añades un código QR a la tarjeta de emergencia.</li>
+</ul>
+<p>Nunca se envían a Anthropic: los valores de Health Connect o Apple Salud, tu e-mail, tu nombre. Los documentos se envían completos: el modelo tiene instrucciones de no devolver los nombres, identificadores o direcciones que aparezcan en ellos, pero el propio documento puede contenerlos.</p>
+<p>Anthropic trata estos datos conforme a sus condiciones comerciales y a su Anexo de Tratamiento de Datos (Data Processing Addendum), que incluyen las cláusulas contractuales tipo de la UE. Según esas condiciones, Anthropic no usa las entradas ni las salidas de la API para entrenar sus modelos y solo las conserva durante un periodo limitado fijado por su política de conservación.</p>
+<p>Tras la lectura, el archivo original de un análisis permanece en tu historial hasta que lo elimines. Las fotos de cajas, las imágenes de recetas y las páginas de la cartilla no se guardan salvo que marques «guardar»; el nombre del médico prescriptor solo se guarda si así lo eliges.</p>
+
+<h2>6. Transferencias fuera de la Unión Europea</h2>
+<p>Tu historial se almacena en la UE. Anthropic y RevenueCat están establecidas en Estados Unidos; las transferencias a ellas están amparadas por las cláusulas contractuales tipo de la UE (artículo 46.2.c) del RGPD) incluidas en sus condiciones de tratamiento de datos. Puedes pedirnos información sobre estas garantías o una copia de ellas.</p>
+
+<h2>7. Lo que se queda en tu dispositivo</h2>
+<ul>
+<li>Los códigos de barras y QR, incluido el código de las recetas electrónicas francesas, se descodifican en tu dispositivo.</li>
+<li>El texto de los archivos PDF se lee en tu dispositivo para clasificarlos.</li>
+<li>Los metadatos de las fotos (EXIF, que pueden incluir una ubicación) se eliminan en tu dispositivo antes de enviar una foto.</li>
+<li>La ficha de consulta (resumen para el médico) se compone en tu dispositivo a partir de tu historial; solo tu propio texto libre se envía para traducirlo (sección 5).</li>
+<li>El PDF del resumen, la tarjeta de emergencia y el archivo ZIP de exportación se generan en tu dispositivo. En el móvil, la app escribe la exportación, el PDF o la imagen que crea en su propia caché temporal para pasarla al menú de compartir; el sistema puede conservar esa copia hasta que vacíe la caché, y desinstalar la app la elimina.</li>
+<li>El historial de demostración «datos de ejemplo» es ficticio y se queda en tu dispositivo.</li>
+</ul>
+
+<h2>8. Health Connect y Apple Salud</h2>
+<ul>
+<li>Solo con tu permiso, VitaFolio <strong>lee</strong> cuatro tipos de datos de Health Connect (Android) o Apple Salud (iPhone): tensión arterial, peso, frecuencia cardiaca en reposo y glucosa. Nunca escribe en ellos.</li>
+<li>La primera conexión lee hasta los últimos 12 meses; después, VitaFolio lee los valores nuevos automáticamente como máximo cada seis horas cuando abres la app, o cuando tocas «Importar valores nuevos». Los valores van solo al historial propio del titular de la cuenta, nunca al de otra persona.</li>
+<li>Cada valor se guarda en tu historial con el nombre de la app o del dispositivo que lo registró y el identificador del registro en el origen (para no importar dos veces el mismo valor).</li>
+<li>Estos valores no se envían a Anthropic, a RevenueCat ni a ningún anunciante. Un resumen que decides compartir puede incluir estadísticas (número de mediciones, periodo, último valor, media de 90 días) de todas tus mediciones propias, introducidas a mano o importadas.</li>
+<li>Al desconectar se detienen las nuevas importaciones; los valores ya importados permanecen en tu historial hasta que los elimines.</li>
+<li>Nuestro uso de estos datos cumple las normas de Health Connect y de Apple HealthKit, incluidos los requisitos de uso limitado (Limited Use) de Health Connect: no se usan para publicidad, no se venden y solo se usan para mostrarlos en tu historial y en los resúmenes que decides compartir.</li>
+</ul>
+
+<h2>9. Historiales de otras personas</h2>
+<p>Puedes llevar el historial de otras personas — hijos, padres, pareja u otras — después de declarar que estás legitimado para ello, como progenitor o tutor legal o con su consentimiento. Eres responsable de esa legitimación. Estas personas tienen los mismos derechos que tú (sección 17): pueden ejercerlos a través del titular de la cuenta o escribiéndonos.</p>
+
+<h2>10. Compartir un resumen y la tarjeta de emergencia</h2>
+<ul>
+<li>Un enlace de resumen es válido durante 24 horas y puedes revocarlo en cualquier momento. Cualquier persona que tenga el enlace puede abrir el resumen mientras sea válido, sin cuenta.</li>
+<li>Nuestro servidor guarda un hash del enlace (nunca el enlace en sí) y una copia del resumen hasta que el enlace caduca o se revoca. Al revocarlo, esa copia se borra de inmediato; un enlace caducado no abre nada y su copia se elimina. Cada visualización queda registrada (fecha e idioma — sin dirección IP).</li>
+<li>Si marcas «Incluir mi registro de recordatorios (últimas 4 semanas)», el resumen también muestra, para cada medicamento, cuántos de los recordatorios programados marcaste como «Tomado» en las últimas 4 semanas.</li>
+<li>La tarjeta de emergencia es una imagen creada en tu dispositivo que compartes tú mismo. Una vez compartidas, las copias quedan fuera de VitaFolio. Si añades un código QR a la tarjeta, este abre un enlace de resumen válido 24 horas, guardado y tratado exactamente como los enlaces anteriores (su texto libre se traduce como se describe en la sección 5).</li>
+</ul>
+
+<h2>11. Recordatorios</h2>
+<ul>
+<li>En las apps para iPhone y Android, los recordatorios son notificaciones locales programadas en tu dispositivo.</li>
+<li>En la app web instalada, si los activas, los recordatorios usan Web Push: nuestro servidor guarda la suscripción push de tu navegador y una cola de 14 días con las horas de los recordatorios, y la notificación la entrega el servicio push de tu navegador (Google, Mozilla o Apple). Su texto es genérico salvo que elijas mostrar el nombre del medicamento.</li>
+</ul>
+
+<h2>12. Suscripciones</h2>
+<p>Las suscripciones (VitaFolio Plus) por ahora solo se venden en la app para Android y se pagan a través de Google Play; la política de privacidad de Google cubre el pago. RevenueCat gestiona el estado de la suscripción; de nosotros solo recibe un identificador de cuenta aleatorio (sin datos de salud, nombre ni e-mail), además de la información de compra de Google Play, y, como cualquier servicio de compras, también ve datos técnicos como la dirección IP. Guardamos tu plan, la fecha de renovación, la tienda y los eventos de la suscripción.</p>
+
+<h2>13. Cookies y almacenamiento local</h2>
+<p>La app no instala cookies y no usa identificadores publicitarios, herramientas de analítica ni de informes de errores, ni rastreadores. Las fuentes y el código se sirven desde nuestro propio origen. La app guarda tu sesión y tus ajustes (idioma, unidades, persona seleccionada, estado de los recordatorios y de Health Connect, recordatorios pospuestos, opciones de visualización de los gráficos y estado de los datos de ejemplo) en el almacenamiento local de tu dispositivo; allí no se guarda nada de tu historial, salvo el historial de ejemplo si lo abres. Este almacenamiento es estrictamente necesario para prestar el servicio que solicitas (normativa ePrivacy). La app para Android está excluida de la copia de seguridad en la nube de Android.</p>
+
+<h2>14. Conservación y eliminación</h2>
+<ul>
+<li>Conservamos tus datos mientras exista tu cuenta, incluidos los contadores de uso, los eventos de la suscripción y el historial de compartidos. Puedes eliminar cualquier elemento en la app en cualquier momento.</li>
+<li>Al eliminar la cuenta (Ajustes › Eliminar mi cuenta y todos mis datos) se borran primero todos tus archivos y después tu cuenta y todos los datos vinculados a ella. Si un archivo no se puede borrar, la cuenta no se elimina y la app te pide que lo intentes de nuevo.</li>
+<li>Los datos eliminados pueden permanecer en las copias de seguridad cifradas de nuestro proveedor de alojamiento durante un periodo limitado antes de sobrescribirse.</li>
+<li>Los registros que Google Play y RevenueCat conservan por obligaciones de facturación y fiscales se rigen por sus propias políticas.</li>
+<li>Las exportaciones, los PDF y las imágenes que hayas guardado o compartido fuera de la app, así como la copia temporal en caché descrita en la sección 7, no se ven afectados.</li>
+</ul>
+
+<h2>15. Exportación</h2>
+<p>Ajustes › Exportar todos mis datos te entrega un archivo ZIP con <code>data.json</code> (perfil, personas, lista de documentos, resultados, datos del perfil, acontecimientos vitales, medicamentos, respuestas a los recordatorios, mediciones, historial de compartidos) y tus archivos originales (derecho a la portabilidad, artículo 20 del RGPD).</p>
+
+<h2>16. Edad</h2>
+<p>VitaFolio está destinada a adultos (18 años o más). El historial de un menor lo lleva su progenitor o tutor legal.</p>
+
+<h2>17. Tus derechos</h2>
+<p>Tienes derecho de acceso, rectificación, supresión, limitación del tratamiento, portabilidad y oposición, así como a retirar tu consentimiento en cualquier momento (artículos 7.3 y 15 a 21 del RGPD). La mayoría puedes ejercerlos directamente en la app: editar, eliminar, exportar. Si no, escribe a <a href="mailto:o.chicoineau@gmail.com">o.chicoineau@gmail.com</a>; respondemos en el plazo de un mes (artículo 12.3 del RGPD).</p>
+
+<h2>18. Reclamaciones</h2>
+<p>Puedes presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD, <a href="https://www.aepd.es">www.aepd.es</a>) o ante la autoridad de control del país de la UE en el que residas, trabajes o se haya producido la supuesta infracción (artículo 77 del RGPD).</p>
+
+<h2>19. Sin decisiones automatizadas</h2>
+<p>VitaFolio no toma ninguna decisión basada únicamente en un tratamiento automatizado que produzca efectos jurídicos o te afecte significativamente de modo similar (artículo 22 del RGPD): la app muestra información; no decide nada.</p>
+
+<h2>20. No es consejo médico</h2>
+<p>VitaFolio organiza y muestra tu información. No hace diagnósticos, no da consejos de tratamiento ni evalúa riesgos. Consulta siempre a un profesional sanitario cualificado; en caso de urgencia, llama al 112.</p>
+
+<h2>21. Cambios en esta política</h2>
+<p>Anunciamos en la app cualquier cambio importante antes de que se aplique. La fecha al principio de esta página indica la versión vigente.</p>
+<p class="top"><a href="#top">↑ Idiomas</a></p>
+</section>
+
+<section id="de" lang="de">
+<h1>Datenschutzerklärung — VitaFolio</h1>
+<p class="updated">Stand: 27. November 2026 · <a href="../terms/">Nutzungsbedingungen</a></p>
+<div class="lede"><p>VitaFolio speichert und ordnet Ihre eigenen Gesundheitsdokumente. Ihre Akte wird in der Europäischen Union gehostet. Wir verkaufen Ihre Daten nicht, zeigen keine Werbung, verwenden keine Tracker, und Ihre Daten werden nicht zum Training von KI-Modellen verwendet. Sie können jederzeit alles aus der App exportieren oder löschen.</p></div>
+
+<h2>1. Wer für Ihre Daten verantwortlich ist</h2>
+<p>VitaFolio wird von <strong>Olivier Chicoineau</strong> betrieben, einer natürlichen Person (kein Unternehmen), Avenida 327, 6, 08860 Castelldefels, Spanien. Er ist Verantwortlicher für Ihre personenbezogenen Daten im Sinne von Art. 4 Nr. 7 der Datenschutz-Grundverordnung (DSGVO) — „wir“ in dieser Erklärung.</p>
+<p>Kontakt für Datenschutzfragen: <a href="mailto:o.chicoineau@gmail.com">o.chicoineau@gmail.com</a>.</p>
+<p>Ein Datenschutzbeauftragter wurde nicht benannt, da dies bei unserem derzeitigen Umfang nicht vorgeschrieben ist (Art. 37 DSGVO); wenden Sie sich direkt an den Verantwortlichen.</p>
+
+<h2>2. Was VitaFolio ist</h2>
+<p>VitaFolio ist eine persönliche Gesundheitsakte, verfügbar als Android-App, als iPhone-App (derzeit in der Beta-Phase) und als Web-App. Sie bewahrt Ihre Gesundheitsdokumente auf, liest auf Ihren Wunsch die darin enthaltenen Werte aus und erstellt Zusammenfassungen, die Sie mit Ärztinnen und Ärzten teilen können. Sie ordnet und zeigt Informationen an: Sie stellt keine Diagnose, gibt keine Behandlungsempfehlung und nimmt keine Risikobewertung vor.</p>
+
+<h2>3. Welche Daten wir verarbeiten</h2>
+<ul>
+<li><strong>Konto:</strong> Ihre E-Mail-Adresse. Sie melden sich mit einem 6-stelligen Code (und einem Link) an, den Supabase Auth an diese Adresse sendet; es gibt kein Passwort.</li>
+<li><strong>Profil (freiwillig):</strong> Name, Geburtsjahr, Geschlecht, Länder, Sprache, Einheiten, Blutgruppe, Notfallkontakt (Name und Telefonnummer), Rauchen, Alkohol und körperliche Aktivität.</li>
+<li><strong>Gesundheitsdaten</strong> (besondere Kategorie personenbezogener Daten, Art. 9 DSGVO): Dokumente und ihre Originaldateien (Laborbefunde, Bildgebung, Arztbriefe, Entlassungsberichte, Rezepte, Impfnachweise und andere), Laborwerte, Erkrankungen, frühere Erkrankungen, Operationen, Krankenhausaufenthalte, Allergien, Medikamente und Erinnerungen (mit Ihren Antworten „Eingenommen“ / „Ausgelassen“), Impfungen, Familiengeschichte, Lebensereignisse (zum Beispiel Reisen, Ernährung, Schwangerschaft oder Krankheit), Messwerte (Blutdruck, Gewicht, Ruhepuls, Blutzucker) sowie die Zusammenfassungen, die Sie teilen.</li>
+<li><strong>Werte aus Health Connect oder Apple Health</strong>, nur wenn Sie diese verbinden (Abschnitt 8).</li>
+<li><strong>Abonnement:</strong> Tarif, Verlängerungsdatum, Store und Abo-Ereignisse (Abschnitt 12).</li>
+<li><strong>Freigabeverlauf:</strong> Datum und Sprache jedes Aufrufs eines Zusammenfassungslinks (Abschnitt 10).</li>
+<li><strong>Web-Erinnerungen (freiwillig):</strong> das Push-Abonnement Ihres Browsers und eine 14-tägige Warteschlange von Erinnerungszeiten (Abschnitt 11).</li>
+<li><strong>Nutzungszähler:</strong> Anzahl der KI-Aufrufe und Tokens pro Funktion und Datum, um faire Nutzungsgrenzen anzuwenden. Sie enthalten keine Inhalte.</li>
+<li><strong>Technische Protokolle:</strong> Unsere Serverfunktionen protokollieren nur den Funktionsnamen, den Status, die Dauer und die Fehlerart — nie Inhalte oder Gesundheitsdaten. Unsere Hosting-Anbieter führen eigene technische Protokolle (zum Beispiel IP-Adressen) zu Sicherheitszwecken für einen begrenzten Zeitraum.</li>
+</ul>
+<p>Ihre E-Mail-Adresse ist für die Kontoerstellung erforderlich; alles andere ist freiwillig, und Sie entscheiden, was Sie hinzufügen. Die Daten stammen von Ihnen, aus Health Connect oder Apple Health, wenn Sie diese verbinden, und bei einem Abonnement von Google Play.</p>
+
+<h2>4. Zwecke und Rechtsgrundlagen</h2>
+<ul>
+<li><strong>Bereitstellung Ihres Kontos und des Dienstes</strong> (Anmeldung, Speichern und Anzeigen Ihrer Akte, Zusammenfassungen, Freigabelinks, Erinnerungen, faire Nutzungsgrenzen sowie Ihr Abonnement und die Abrechnungsunterlagen): Vertragserfüllung — Art. 6 Abs. 1 lit. b DSGVO.</li>
+<li><strong>Gesundheitsdaten:</strong> Ihre ausdrückliche Einwilligung (Art. 9 Abs. 2 lit. a DSGVO), die Sie erteilen, wenn Sie Ihrer Akte Gesundheitsinformationen hinzufügen, nachdem Sie durch diese Erklärung informiert wurden. Sie können sie jederzeit widerrufen, indem Sie diese Informationen oder Ihr Konto löschen; dies berührt nicht die bis dahin erfolgte Verarbeitung.</li>
+<li><strong>Health Connect / Apple Health:</strong> die Einwilligung, die Sie im Berechtigungsdialog des Systems erteilen und dort jederzeit widerrufen können.</li>
+<li><strong>Akten anderer Personen</strong> (Abschnitt 9): die ausdrückliche Einwilligung der betroffenen Person oder ihres Elternteils bzw. gesetzlichen Vertreters, wie vom Kontoinhaber erklärt — Art. 9 Abs. 2 lit. a DSGVO.</li>
+<li><strong>Sicherheitsprotokolle:</strong> unser berechtigtes Interesse an einem sicheren Dienst — Art. 6 Abs. 1 lit. f DSGVO.</li>
+</ul>
+<p>Wir verwenden Ihre Daten nicht für Werbung oder Profiling, verkaufen sie nicht und verwenden sie nicht zum Training von KI-Modellen.</p>
+
+<h2>5. Dienstleister, die Ihre Daten verarbeiten</h2>
+<p>Die folgenden Anbieter verarbeiten Daten in unserem Auftrag (Auftragsverarbeiter). Google Play wickelt die Abo-Zahlungen nach seiner eigenen Datenschutzerklärung ab.</p>
+<ul>
+<li><strong>Supabase</strong> — Konto, Anmelde-E-Mails, Datenbank, Dateispeicher und Serverfunktionen. Unser Projekt wird in der Europäischen Union gehostet: Frankfurt am Main, Deutschland (AWS eu-central-1). Es enthält alles, was in Ihrem Konto gespeichert ist. Die Verschlüsselung bei der Übertragung (HTTPS/TLS) und im Ruhezustand stellt unser Hosting-Anbieter bereit.</li>
+<li><strong>Anthropic</strong> (USA) — liest Dokumente aus und übersetzt Ihren eigenen Freitext, ausschließlich über unsere Serverfunktionen. Einzelheiten unten.</li>
+<li><strong>RevenueCat</strong> (USA) — verwaltet den Abostatus. Erhält von uns nur eine zufällige Kontokennung (keine Gesundheitsdaten, keinen Namen, keine E-Mail-Adresse), dazu die Kaufinformationen von Google Play; wie jeder Kaufdienst sieht RevenueCat außerdem technische Daten wie die IP-Adresse.</li>
+<li><strong>Google Play</strong> — wickelt die Zahlung der Abonnements ab, nach der Datenschutzerklärung von Google.</li>
+<li><strong>Vercel</strong> — stellt die Web-Version der App bereit. Erhält Ihre IP-Adresse und übliche Anfragedaten, nur um die Seiten auszuliefern.</li>
+<li><strong>Push-Dienste der Browser</strong> (Google, Mozilla oder Apple, je nach Browser) — nur wenn Sie Erinnerungen in der installierten Web-App einschalten; sie stellen die Benachrichtigungen zu (Abschnitt 11).</li>
+<li><strong>GitHub</strong> (USA) — hostet ausschließlich diese Rechtstexte (GitHub Pages); erhält Ihre IP-Adresse, wenn Sie sie aufrufen.</li>
+</ul>
+<h3>Was an Anthropic gesendet wird – und was nicht</h3>
+<ul>
+<li>Laborbefunde (PDF oder Foto), um die Werte auszulesen.</li>
+<li>Fotos von Medikamentenpackungen, Rezepte und Seiten von Gesundheitsheften, um sie zu transkribieren.</li>
+<li>Jede mit „+“ hinzugefügte Datei, die Ihr Gerät nicht selbst zuordnen kann, um sie zuzuordnen.</li>
+<li>Für „Fragen für das Arztgespräch“: Angaben zu dem einen betreffenden Wert.</li>
+<li>Ihren eigenen Freitext (Anlass des Termins, Notizen, Bezeichnungen von Ereignissen, von Ihnen umformulierte Fragen), um ihn in die fünf Sprachen der App zu übersetzen, wenn Sie eine Zusammenfassung teilen oder der Notfallkarte einen QR-Code hinzufügen.</li>
+</ul>
+<p>Nie an Anthropic gesendet: Werte aus Health Connect oder Apple Health, Ihre E-Mail-Adresse, Ihr Name. Dokumente werden vollständig gesendet: Das Modell ist angewiesen, darin enthaltene Namen, Kennungen oder Anschriften nicht zurückzugeben, das Dokument selbst kann sie aber enthalten.</p>
+<p>Anthropic verarbeitet diese Daten nach seinen gewerblichen Bedingungen und seinem Auftragsverarbeitungsvertrag (Data Processing Addendum), die die EU-Standardvertragsklauseln enthalten. Nach diesen Bedingungen verwendet Anthropic API-Eingaben und -Ausgaben nicht zum Training seiner Modelle und speichert sie nur für einen begrenzten, in seinen Aufbewahrungsrichtlinien festgelegten Zeitraum.</p>
+<p>Nach dem Auslesen bleibt die Originaldatei eines Laborbefunds in Ihrer Akte, bis Sie sie löschen. Fotos von Packungen, Rezeptbilder und Seiten von Gesundheitsheften werden nicht aufbewahrt, sofern Sie nicht „behalten“ ankreuzen; der Name der verschreibenden Person wird nur gespeichert, wenn Sie dies wählen.</p>
+
+<h2>6. Übermittlungen außerhalb der Europäischen Union</h2>
+<p>Ihre Akte wird in der EU gespeichert. Anthropic und RevenueCat haben ihren Sitz in den USA; Übermittlungen an sie sind durch die EU-Standardvertragsklauseln (Art. 46 Abs. 2 lit. c DSGVO) abgesichert, die in ihren Datenverarbeitungsbedingungen enthalten sind. Sie können bei uns Informationen über diese Garantien oder eine Kopie davon anfordern.</p>
+
+<h2>7. Was auf Ihrem Gerät bleibt</h2>
+<ul>
+<li>Barcodes und QR-Codes, einschließlich des Codes französischer elektronischer Rezepte, werden auf Ihrem Gerät dekodiert.</li>
+<li>Der Text von PDF-Dateien wird auf Ihrem Gerät gelesen, um sie zuzuordnen.</li>
+<li>Foto-Metadaten (EXIF, die einen Standort enthalten können) werden auf Ihrem Gerät entfernt, bevor ein Foto gesendet wird.</li>
+<li>Die Zusammenfassung für den Arzttermin wird auf Ihrem Gerät aus Ihrer Akte zusammengestellt; nur Ihr eigener Freitext wird zur Übersetzung gesendet (Abschnitt 5).</li>
+<li>Das Zusammenfassungs-PDF, die Notfallkarte und die Export-ZIP-Datei werden auf Ihrem Gerät erstellt. Auf dem Telefon schreibt die App den Export, das PDF oder das Bild, das sie erstellt, in ihren eigenen temporären Cache, um es an das Teilen-Menü zu übergeben; das System kann diese Kopie behalten, bis es den Cache leert, und die Deinstallation der App entfernt sie.</li>
+<li>Die Demo-Akte „Beispieldaten“ ist fiktiv und bleibt auf Ihrem Gerät.</li>
+</ul>
+
+<h2>8. Health Connect und Apple Health</h2>
+<ul>
+<li>Nur mit Ihrer Erlaubnis <strong>liest</strong> VitaFolio vier Datentypen aus Health Connect (Android) oder Apple Health (iPhone): Blutdruck, Gewicht, Ruhepuls und Blutzucker. VitaFolio schreibt nie dorthin.</li>
+<li>Bei der ersten Verbindung werden bis zu 12 Monate rückwirkend gelesen; danach liest VitaFolio neue Werte automatisch höchstens alle sechs Stunden, wenn Sie die App öffnen, oder wenn Sie auf „Neue Werte übernehmen“ tippen. Die Werte gehen nur in die eigene Akte des Kontoinhabers, nie in die einer anderen Person.</li>
+<li>Jeder Wert wird mit dem Namen der App oder des Geräts, die bzw. das ihn erfasst hat, und der Datensatzkennung der Quelle gespeichert (damit kein Wert doppelt importiert wird).</li>
+<li>Diese Werte werden weder an Anthropic noch an RevenueCat noch an Werbetreibende gesendet. Eine Zusammenfassung, die Sie teilen, kann Statistiken (Anzahl der Messungen, Zeitraum, letzter Wert, 90-Tage-Mittelwert) aller Ihrer selbst gemessenen Werte enthalten, ob eingegeben oder importiert.</li>
+<li>Das Trennen der Verbindung beendet neue Importe; bereits importierte Werte bleiben in Ihrer Akte, bis Sie sie löschen.</li>
+<li>Unsere Nutzung dieser Daten entspricht den Regeln von Health Connect und Apple HealthKit, einschließlich der Health-Connect-Anforderungen zur eingeschränkten Nutzung (Limited Use): Sie werden nicht für Werbung verwendet, nicht verkauft und nur dazu verwendet, sie in Ihrer Akte und in den Zusammenfassungen anzuzeigen, die Sie teilen.</li>
+</ul>
+
+<h2>9. Akten anderer Personen</h2>
+<p>Sie können Akten für andere Personen führen — Kinder, Eltern, Partnerin oder Partner und andere —, nachdem Sie erklärt haben, dazu berechtigt zu sein, als Elternteil oder gesetzlicher Vertreter oder mit deren Einwilligung. Sie sind für diese Berechtigung verantwortlich. Diese Personen haben dieselben Rechte wie Sie (Abschnitt 17): Sie können sie über den Kontoinhaber oder durch eine Nachricht an uns ausüben.</p>
+
+<h2>10. Teilen einer Zusammenfassung und Notfallkarte</h2>
+<ul>
+<li>Ein Zusammenfassungslink ist 24 Stunden gültig und kann jederzeit widerrufen werden. Wer den Link hat, kann die Zusammenfassung während der Gültigkeit ohne Konto öffnen.</li>
+<li>Unser Server speichert einen Hashwert des Links (nie den Link selbst) und eine Kopie der Zusammenfassung, bis der Link abläuft oder widerrufen wird. Ein Widerruf löscht diese Kopie sofort; ein abgelaufener Link öffnet nichts, und seine Kopie wird gelöscht. Jeder Aufruf wird protokolliert (Datum und Sprache — keine IP-Adresse).</li>
+<li>Wenn Sie „Mein Erinnerungsprotokoll einbeziehen (letzte 4 Wochen)“ ankreuzen, zeigt die Zusammenfassung außerdem für jedes Medikament, wie viele der geplanten Erinnerungen Sie in den letzten 4 Wochen als „Eingenommen“ markiert haben.</li>
+<li>Die Notfallkarte ist ein Bild, das auf Ihrem Gerät erstellt wird und das Sie selbst teilen. Einmal geteilte Kopien liegen außerhalb von VitaFolio. Wenn Sie der Karte einen QR-Code hinzufügen, öffnet dieser einen 24 Stunden gültigen Zusammenfassungslink, der genau wie die oben beschriebenen Links gespeichert und behandelt wird (sein Freitext wird wie in Abschnitt 5 beschrieben übersetzt).</li>
+</ul>
+
+<h2>11. Erinnerungen</h2>
+<ul>
+<li>In den iPhone- und Android-Apps sind Erinnerungen lokale Benachrichtigungen, die auf Ihrem Gerät geplant werden.</li>
+<li>In der installierten Web-App nutzen Erinnerungen, wenn Sie sie einschalten, Web Push: Unser Server speichert das Push-Abonnement Ihres Browsers und eine 14-tägige Warteschlange von Erinnerungszeiten, und die Benachrichtigung wird vom Push-Dienst Ihres Browsers (Google, Mozilla oder Apple) zugestellt. Ihr Text ist allgemein gehalten, es sei denn, Sie wählen, den Namen des Medikaments anzuzeigen.</li>
+</ul>
+
+<h2>12. Abonnements</h2>
+<p>Abonnements (VitaFolio Plus) werden derzeit nur in der Android-App verkauft und über Google Play bezahlt; für die Zahlung gilt die Datenschutzerklärung von Google. RevenueCat verwaltet den Abostatus; es erhält von uns nur eine zufällige Kontokennung (keine Gesundheitsdaten, keinen Namen, keine E-Mail-Adresse), dazu die Kaufinformationen von Google Play, und sieht wie jeder Kaufdienst außerdem technische Daten wie die IP-Adresse. Wir speichern Ihren Tarif, das Verlängerungsdatum, den Store und die Abo-Ereignisse.</p>
+
+<h2>13. Cookies und lokaler Speicher</h2>
+<p>Die App setzt keine Cookies und verwendet keine Werbe-ID, keine Analyse- oder Absturzberichts-Tools und keine Tracker. Schriften und Code werden von unserem eigenen Ursprung ausgeliefert. Die App speichert Ihre Anmeldesitzung und Ihre Einstellungen (Sprache, Einheiten, ausgewählte Person, Status der Erinnerungen und von Health Connect, aufgeschobene Erinnerungen, Anzeigeoptionen der Diagramme und Status der Beispieldaten) im lokalen Speicher Ihres Geräts; dort wird nichts aus Ihrer Akte gespeichert, außer der Beispielakte, wenn Sie sie öffnen. Diese Speicherung ist für den von Ihnen gewünschten Dienst unbedingt erforderlich (ePrivacy-Vorschriften). Die Android-App ist von der Cloud-Sicherung von Android ausgenommen.</p>
+
+<h2>14. Speicherdauer und Löschung</h2>
+<ul>
+<li>Wir speichern Ihre Daten, solange Ihr Konto besteht, einschließlich Nutzungszählern, Abo-Ereignissen und Freigabeverlauf. Sie können jeden Eintrag jederzeit in der App löschen.</li>
+<li>Das Löschen des Kontos (Einstellungen › Mein Konto und alle Daten löschen) löscht zuerst alle Ihre Dateien, dann Ihr Konto und alle damit verknüpften Daten. Kann eine Datei nicht gelöscht werden, wird das Konto nicht gelöscht, und die App bittet Sie, es erneut zu versuchen.</li>
+<li>Gelöschte Daten können für einen begrenzten Zeitraum in den verschlüsselten Sicherungen unseres Hosting-Anbieters verbleiben, bevor sie überschrieben werden.</li>
+<li>Unterlagen, die Google Play und RevenueCat für Abrechnungs- und Steuerpflichten aufbewahren, unterliegen deren eigenen Richtlinien.</li>
+<li>Exporte, PDFs und Bilder, die Sie außerhalb der App gespeichert oder geteilt haben, sowie die in Abschnitt 7 beschriebene temporäre Cache-Kopie sind nicht betroffen.</li>
+</ul>
+
+<h2>15. Export</h2>
+<p>Einstellungen › Alle meine Daten exportieren liefert Ihnen eine ZIP-Datei mit <code>data.json</code> (Profil, Personen, Dokumentenliste, Laborwerte, Profileinträge, Lebensereignisse, Medikamente, Antworten auf Erinnerungen, Messwerte, Freigabeverlauf) und Ihren Originaldateien (Recht auf Datenübertragbarkeit, Art. 20 DSGVO).</p>
+
+<h2>16. Alter</h2>
+<p>VitaFolio richtet sich an Erwachsene (ab 18 Jahren). Die Akte eines Kindes wird von einem Elternteil oder gesetzlichen Vertreter geführt.</p>
+
+<h2>17. Ihre Rechte</h2>
+<p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch sowie das Recht, Ihre Einwilligung jederzeit zu widerrufen (Art. 7 Abs. 3 und Art. 15 bis 21 DSGVO). Die meisten können Sie direkt in der App ausüben: bearbeiten, löschen, exportieren. Andernfalls schreiben Sie an <a href="mailto:o.chicoineau@gmail.com">o.chicoineau@gmail.com</a>; wir antworten innerhalb eines Monats (Art. 12 Abs. 3 DSGVO).</p>
+
+<h2>18. Beschwerden</h2>
+<p>Sie können sich bei der spanischen Datenschutzbehörde, der Agencia Española de Protección de Datos (AEPD, <a href="https://www.aepd.es">www.aepd.es</a>), oder bei der Aufsichtsbehörde des EU-Staates beschweren, in dem Sie wohnen, arbeiten oder in dem der mutmaßliche Verstoß stattgefunden hat (Art. 77 DSGVO).</p>
+
+<h2>19. Keine automatisierten Entscheidungen</h2>
+<p>VitaFolio trifft keine ausschließlich auf einer automatisierten Verarbeitung beruhende Entscheidung, die Ihnen gegenüber rechtliche Wirkung entfaltet oder Sie in ähnlicher Weise erheblich beeinträchtigt (Art. 22 DSGVO): Die App zeigt Informationen an; sie entscheidet nichts.</p>
+
+<h2>20. Keine medizinische Beratung</h2>
+<p>VitaFolio ordnet Ihre Informationen und zeigt sie an. Die App stellt keine Diagnose, gibt keine Behandlungsempfehlung und nimmt keine Risikobewertung vor. Wenden Sie sich immer an qualifiziertes medizinisches Fachpersonal; im Notfall wählen Sie die 112.</p>
+
+<h2>21. Änderungen dieser Erklärung</h2>
+<p>Wesentliche Änderungen kündigen wir in der App an, bevor sie gelten. Das Datum oben auf dieser Seite zeigt die aktuelle Fassung.</p>
+<p class="top"><a href="#top">↑ Sprachen</a></p>
+</section>
+
+<section id="it" lang="it">
+<h1>Informativa sulla privacy — VitaFolio</h1>
+<p class="updated">Ultimo aggiornamento: 27 novembre 2026 · <a href="../terms/">Condizioni d’uso</a></p>
+<div class="lede"><p>VitaFolio conserva e organizza i tuoi documenti sanitari. La tua cartella è ospitata nell’Unione europea. Non vendiamo i tuoi dati, non mostriamo pubblicità e non usiamo tracker, e i tuoi dati non vengono usati per addestrare modelli di IA. Puoi esportare o eliminare tutto dall’app in qualsiasi momento.</p></div>
+
+<h2>1. Chi è responsabile dei tuoi dati</h2>
+<p>VitaFolio è gestita da <strong>Olivier Chicoineau</strong>, persona fisica (non una società), Avenida 327, 6, 08860 Castelldefels, Spagna. È il titolare del trattamento dei tuoi dati personali ai sensi dell’art. 4, punto 7, del Regolamento generale sulla protezione dei dati (GDPR) — «noi» in questa informativa.</p>
+<p>Contatto per privacy e protezione dei dati: <a href="mailto:o.chicoineau@gmail.com">o.chicoineau@gmail.com</a>.</p>
+<p>Non è stato designato un responsabile della protezione dei dati, poiché alla nostra scala attuale non è obbligatorio (art. 37 GDPR); scrivi direttamente al titolare del trattamento.</p>
+
+<h2>2. Che cos’è VitaFolio</h2>
+<p>VitaFolio è una cartella sanitaria personale, disponibile come app Android, app iPhone (attualmente in beta) e app web. Conserva i tuoi documenti sanitari, legge i valori che contengono quando glielo chiedi e prepara riepiloghi che puoi condividere con un medico. Organizza e mostra informazioni: non formula diagnosi, non dà consigli terapeutici e non valuta rischi.</p>
+
+<h2>3. I dati che trattiamo</h2>
+<ul>
+<li><strong>Account:</strong> il tuo indirizzo e-mail. Accedi con un codice di 6 cifre (e un link) che Supabase Auth invia a quell’indirizzo; non c’è alcuna password.</li>
+<li><strong>Profilo (facoltativo):</strong> nome, anno di nascita, sesso, paesi, lingua, unità di misura, gruppo sanguigno, contatto di emergenza (nome e numero di telefono), fumo, alcol e attività fisica.</li>
+<li><strong>Dati sanitari</strong> (categoria particolare di dati, art. 9 GDPR): documenti e relativi file originali (referti di laboratorio, diagnostica per immagini, lettere, lettere di dimissione, ricette, certificati vaccinali e altro), risultati di analisi, patologie, malattie pregresse, interventi chirurgici, ricoveri, allergie, farmaci e promemoria (con le tue risposte «Preso» / «Saltato»), vaccinazioni, storia familiare, eventi di vita (per esempio viaggi, dieta, gravidanza o malattia), misurazioni (pressione arteriosa, peso, frequenza cardiaca a riposo, glicemia) e i riepiloghi che condividi.</li>
+<li><strong>Valori da Health Connect o Apple Salute</strong>, solo se li colleghi (sezione 8).</li>
+<li><strong>Abbonamento:</strong> piano, data di rinnovo, store ed eventi dell’abbonamento (sezione 12).</li>
+<li><strong>Cronologia delle condivisioni:</strong> data e lingua di ogni visualizzazione di un link di riepilogo (sezione 10).</li>
+<li><strong>Promemoria web (facoltativi):</strong> l’iscrizione push del tuo browser e una coda di 14 giorni con gli orari dei promemoria (sezione 11).</li>
+<li><strong>Contatori di utilizzo:</strong> il numero di chiamate all’IA e di token per funzione e per data, per applicare i limiti di uso ragionevole. Non contengono alcun contenuto.</li>
+<li><strong>Log tecnici:</strong> le nostre funzioni server registrano solo il nome della funzione, lo stato, la durata e il tipo di errore — mai contenuti o dati sanitari. I nostri fornitori di hosting conservano i propri log tecnici (per esempio gli indirizzi IP) per motivi di sicurezza, per un periodo limitato.</li>
+</ul>
+<p>Il tuo indirizzo e-mail è necessario per creare un account; tutto il resto è facoltativo e decidi tu cosa aggiungere. I dati provengono da te, da Health Connect o Apple Salute se li colleghi e, per un abbonamento, da Google Play.</p>
+
+<h2>4. Finalità e basi giuridiche</h2>
+<ul>
+<li><strong>Fornitura del tuo account e del servizio</strong> (accesso, conservazione e visualizzazione della cartella, riepiloghi, link di condivisione, promemoria, limiti di uso ragionevole, nonché il tuo abbonamento e i dati di fatturazione): esecuzione del contratto con te — art. 6, par. 1, lett. b), GDPR.</li>
+<li><strong>Dati sanitari:</strong> il tuo consenso esplicito (art. 9, par. 2, lett. a), GDPR), che presti quando aggiungi informazioni sanitarie alla tua cartella dopo essere stato informato da questa informativa. Puoi revocarlo in qualsiasi momento eliminando tali informazioni o il tuo account; ciò non pregiudica il trattamento effettuato in precedenza.</li>
+<li><strong>Health Connect / Apple Salute:</strong> il consenso che dai nella schermata di autorizzazione del sistema, dove puoi revocarlo in qualsiasi momento.</li>
+<li><strong>Cartelle di altre persone</strong> (sezione 9): il consenso esplicito dell’interessato, o del suo genitore o tutore legale, come dichiarato dal titolare dell’account — art. 9, par. 2, lett. a), GDPR.</li>
+<li><strong>Log di sicurezza:</strong> il nostro legittimo interesse a mantenere sicuro il servizio — art. 6, par. 1, lett. f), GDPR.</li>
+</ul>
+<p>Non usiamo i tuoi dati per pubblicità o profilazione, non li vendiamo e non li usiamo per addestrare modelli di IA.</p>
+
+<h2>5. Fornitori che trattano i tuoi dati</h2>
+<p>I seguenti fornitori trattano dati per nostro conto (responsabili del trattamento). Google Play incassa i pagamenti degli abbonamenti secondo la propria informativa sulla privacy.</p>
+<ul>
+<li><strong>Supabase</strong> — account, e-mail di accesso, database, archiviazione dei file e funzioni server. Il nostro progetto è ospitato nell’Unione europea: Francoforte, Germania (AWS eu-central-1). Contiene tutto ciò che è salvato nel tuo account. La cifratura in transito (HTTPS/TLS) e a riposo è fornita dal nostro fornitore di hosting.</li>
+<li><strong>Anthropic</strong> (Stati Uniti) — legge i documenti e traduce il tuo testo libero, solo tramite le nostre funzioni server. Dettagli qui sotto.</li>
+<li><strong>RevenueCat</strong> (Stati Uniti) — gestisce lo stato dell’abbonamento. Da noi riceve solo un identificativo casuale dell’account (nessun dato sanitario, nome o indirizzo e-mail), oltre alle informazioni di acquisto da Google Play; come qualsiasi servizio di acquisto, vede anche dati tecnici come l’indirizzo IP.</li>
+<li><strong>Google Play</strong> — incassa il pagamento degli abbonamenti, secondo l’informativa sulla privacy di Google.</li>
+<li><strong>Vercel</strong> — fornisce la versione web dell’app. Riceve il tuo indirizzo IP e i dati standard della richiesta, solo per consegnare le pagine.</li>
+<li><strong>Servizi push dei browser</strong> (Google, Mozilla o Apple, a seconda del browser) — solo se attivi i promemoria nell’app web installata; consegnano le notifiche (sezione 11).</li>
+<li><strong>GitHub</strong> (Stati Uniti) — ospita soltanto queste pagine informative (GitHub Pages); riceve il tuo indirizzo IP quando le apri.</li>
+</ul>
+<h3>Cosa viene inviato ad Anthropic e cosa no</h3>
+<ul>
+<li>I referti di laboratorio (PDF o foto), per leggerne i risultati.</li>
+<li>Le foto delle confezioni dei farmaci, le ricette e le pagine del libretto sanitario, per trascriverle.</li>
+<li>Qualsiasi file aggiunto con «+» che il tuo dispositivo non riesce a classificare da solo, per classificarlo.</li>
+<li>Per «Domande da fare al tuo medico»: i dati del solo risultato interessato.</li>
+<li>Il tuo testo libero (motivo della visita, note, nomi degli eventi, domande che hai riformulato), per tradurlo nelle cinque lingue dell’app quando condividi un riepilogo o aggiungi un codice QR alla scheda di emergenza.</li>
+</ul>
+<p>Mai inviati ad Anthropic: i valori di Health Connect o Apple Salute, il tuo indirizzo e-mail, il tuo nome. I documenti vengono inviati per intero: il modello ha l’istruzione di non restituire nomi, identificativi o indirizzi presenti nei documenti, ma il documento stesso può contenerli.</p>
+<p>Anthropic tratta questi dati in base ai propri termini commerciali e al proprio accordo sul trattamento dei dati (Data Processing Addendum), che includono le clausole contrattuali standard dell’UE. In base a tali termini, Anthropic non usa gli input né gli output dell’API per addestrare i propri modelli e li conserva solo per un periodo limitato stabilito dalla sua politica di conservazione.</p>
+<p>Dopo la lettura, il file originale di un referto resta nella tua cartella finché non lo elimini. Le foto delle confezioni, le immagini delle ricette e le pagine del libretto non vengono conservate, salvo che tu spunti «conserva»; il nome del medico prescrittore viene conservato solo se lo scegli.</p>
+
+<h2>6. Trasferimenti al di fuori dell’Unione europea</h2>
+<p>La tua cartella è archiviata nell’UE. Anthropic e RevenueCat hanno sede negli Stati Uniti; i trasferimenti verso di loro sono coperti dalle clausole contrattuali standard dell’UE (art. 46, par. 2, lett. c), GDPR) incluse nei loro termini sul trattamento dei dati. Puoi chiederci informazioni su queste garanzie o una loro copia.</p>
+
+<h2>7. Cosa resta sul tuo dispositivo</h2>
+<ul>
+<li>I codici a barre e i codici QR, compreso il codice delle ricette elettroniche francesi, vengono decodificati sul tuo dispositivo.</li>
+<li>Il testo dei file PDF viene letto sul tuo dispositivo per classificarli.</li>
+<li>I metadati delle foto (EXIF, che possono includere una posizione) vengono rimossi sul tuo dispositivo prima dell’invio di una foto.</li>
+<li>Il riepilogo per la visita (riepilogo per il medico) viene composto sul tuo dispositivo a partire dalla tua cartella; solo il tuo testo libero viene inviato per la traduzione (sezione 5).</li>
+<li>Il PDF del riepilogo, la scheda di emergenza e il file ZIP di esportazione vengono creati sul tuo dispositivo. Sul telefono, l’app scrive l’esportazione, il PDF o l’immagine che crea nella propria cache temporanea per passarli al menu di condivisione; il sistema può conservare quella copia finché non svuota la cache, e la disinstallazione dell’app la rimuove.</li>
+<li>La cartella dimostrativa «dati di esempio» è fittizia e resta sul tuo dispositivo.</li>
+</ul>
+
+<h2>8. Health Connect e Apple Salute</h2>
+<ul>
+<li>Solo con la tua autorizzazione, VitaFolio <strong>legge</strong> quattro tipi di dati da Health Connect (Android) o Apple Salute (iPhone): pressione arteriosa, peso, frequenza cardiaca a riposo e glicemia. Non vi scrive mai.</li>
+<li>Il primo collegamento legge fino agli ultimi 12 mesi; in seguito, VitaFolio legge i nuovi valori automaticamente al massimo ogni sei ore quando apri l’app, oppure quando tocchi «Importa nuovi valori». I valori vanno solo nella cartella del titolare dell’account, mai in quella di un’altra persona.</li>
+<li>Ogni valore viene salvato nella tua cartella con il nome dell’app o del dispositivo che lo ha registrato e l’identificativo del record nella fonte (per non importare due volte lo stesso valore).</li>
+<li>Questi valori non vengono inviati ad Anthropic, a RevenueCat né ad alcun inserzionista. Un riepilogo che scegli di condividere può includere statistiche (numero di misurazioni, periodo, ultimo valore, media a 90 giorni) di tutte le tue misurazioni personali, inserite a mano o importate.</li>
+<li>Scollegando si interrompono le nuove importazioni; i valori già importati restano nella tua cartella finché non li elimini.</li>
+<li>Il nostro uso di questi dati rispetta le regole di Health Connect e di Apple HealthKit, compresi i requisiti di uso limitato (Limited Use) di Health Connect: non vengono usati per pubblicità, non vengono venduti e servono solo a mostrarli nella tua cartella e nei riepiloghi che scegli di condividere.</li>
+</ul>
+
+<h2>9. Cartelle di altre persone</h2>
+<p>Puoi tenere la cartella di altre persone — figli, genitori, partner o altri — dopo aver dichiarato di esserne legittimato, come genitore o tutore legale oppure con il loro consenso. Sei responsabile di tale legittimazione. Queste persone hanno i tuoi stessi diritti (sezione 17): possono esercitarli tramite il titolare dell’account o scrivendoci.</p>
+
+<h2>10. Condivisione di un riepilogo e scheda di emergenza</h2>
+<ul>
+<li>Un link di riepilogo è valido 24 ore e puoi revocarlo in qualsiasi momento. Chiunque abbia il link può aprire il riepilogo finché è valido, senza account.</li>
+<li>Il nostro server conserva un hash del link (mai il link stesso) e una copia del riepilogo finché il link non scade o viene revocato. La revoca cancella subito quella copia; un link scaduto non apre nulla e la sua copia viene eliminata. Ogni visualizzazione viene registrata (data e lingua — nessun indirizzo IP).</li>
+<li>Se spunti «Includi il registro dei miei promemoria (ultime 4 settimane)», il riepilogo mostra anche, per ogni farmaco, quanti dei promemoria programmati hai segnato come «Preso» nelle ultime 4 settimane.</li>
+<li>La scheda di emergenza è un’immagine creata sul tuo dispositivo, che condividi tu stesso. Una volta condivise, le copie sono al di fuori di VitaFolio. Se aggiungi un codice QR alla scheda, questo apre un link di riepilogo valido 24 ore, conservato e gestito esattamente come i link sopra descritti (il suo testo libero viene tradotto come descritto nella sezione 5).</li>
+</ul>
+
+<h2>11. Promemoria</h2>
+<ul>
+<li>Nelle app per iPhone e Android, i promemoria sono notifiche locali programmate sul tuo dispositivo.</li>
+<li>Nell’app web installata, se li attivi, i promemoria usano Web Push: il nostro server salva l’iscrizione push del tuo browser e una coda di 14 giorni con gli orari dei promemoria, e la notifica viene consegnata dal servizio push del tuo browser (Google, Mozilla o Apple). Il testo è generico, salvo che tu scelga di mostrare il nome del farmaco.</li>
+</ul>
+
+<h2>12. Abbonamenti</h2>
+<p>Gli abbonamenti (VitaFolio Plus) sono per ora venduti solo nell’app Android e pagati tramite Google Play; l’informativa sulla privacy di Google copre il pagamento. RevenueCat gestisce lo stato dell’abbonamento; da noi riceve solo un identificativo casuale dell’account (nessun dato sanitario, nome o indirizzo e-mail), oltre alle informazioni di acquisto da Google Play, e, come qualsiasi servizio di acquisto, vede anche dati tecnici come l’indirizzo IP. Salviamo il tuo piano, la data di rinnovo, lo store e gli eventi dell’abbonamento.</p>
+
+<h2>13. Cookie e archiviazione locale</h2>
+<p>L’app non imposta cookie e non usa identificativi pubblicitari, strumenti di analisi o di segnalazione degli arresti anomali, né tracker. I caratteri e il codice sono serviti dalla nostra stessa origine. L’app conserva la sessione di accesso e le tue impostazioni (lingua, unità di misura, persona selezionata, stato dei promemoria e di Health Connect, promemoria posticipati, opzioni di visualizzazione dei grafici e stato dei dati di esempio) nella memoria locale del tuo dispositivo; lì non viene conservato nulla della tua cartella, tranne la cartella di esempio se la apri. Questa archiviazione è strettamente necessaria per fornire il servizio che richiedi (norme ePrivacy). L’app Android è esclusa dal backup sul cloud di Android.</p>
+
+<h2>14. Conservazione e cancellazione</h2>
+<ul>
+<li>Conserviamo i tuoi dati finché esiste il tuo account, compresi i contatori di utilizzo, gli eventi dell’abbonamento e la cronologia delle condivisioni. Puoi eliminare qualsiasi elemento nell’app in qualsiasi momento.</li>
+<li>L’eliminazione dell’account (Impostazioni › Elimina il mio account e tutti i dati) cancella prima tutti i tuoi file, poi il tuo account e ogni dato a esso collegato. Se un file non può essere cancellato, l’account non viene eliminato e l’app ti chiede di riprovare.</li>
+<li>I dati eliminati possono restare nei backup cifrati del nostro fornitore di hosting per un periodo limitato prima di essere sovrascritti.</li>
+<li>I dati conservati da Google Play e RevenueCat per obblighi di fatturazione e fiscali seguono le loro politiche.</li>
+<li>Le esportazioni, i PDF e le immagini che hai salvato o condiviso al di fuori dell’app, nonché la copia temporanea in cache descritta nella sezione 7, non sono interessati.</li>
+</ul>
+
+<h2>15. Esportazione</h2>
+<p>Impostazioni › Esporta tutti i miei dati ti fornisce un file ZIP con <code>data.json</code> (profilo, persone, elenco dei documenti, risultati, voci del profilo, eventi di vita, farmaci, risposte ai promemoria, misurazioni, cronologia delle condivisioni) e i tuoi file originali (diritto alla portabilità, art. 20 GDPR).</p>
+
+<h2>16. Età</h2>
+<p>VitaFolio è destinata agli adulti (18 anni e oltre). La cartella di un minore è tenuta da un genitore o da un tutore legale.</p>
+
+<h2>17. I tuoi diritti</h2>
+<p>Hai il diritto di accesso, rettifica, cancellazione, limitazione del trattamento, portabilità e opposizione, nonché il diritto di revocare il consenso in qualsiasi momento (artt. 7, par. 3, e da 15 a 21 GDPR). La maggior parte si esercita direttamente nell’app: modificare, eliminare, esportare. Altrimenti scrivi a <a href="mailto:o.chicoineau@gmail.com">o.chicoineau@gmail.com</a>; rispondiamo entro un mese (art. 12, par. 3, GDPR).</p>
+
+<h2>18. Reclami</h2>
+<p>Puoi proporre reclamo all’autorità spagnola per la protezione dei dati, l’Agencia Española de Protección de Datos (AEPD, <a href="https://www.aepd.es">www.aepd.es</a>), oppure all’autorità di controllo del paese dell’UE in cui risiedi, lavori o in cui si è verificata la presunta violazione (art. 77 GDPR).</p>
+
+<h2>19. Nessuna decisione automatizzata</h2>
+<p>VitaFolio non prende alcuna decisione basata unicamente su un trattamento automatizzato che produca effetti giuridici o che incida in modo analogo significativamente sulla tua persona (art. 22 GDPR): l’app mostra informazioni; non decide nulla.</p>
+
+<h2>20. Non è un parere medico</h2>
+<p>VitaFolio organizza e mostra le tue informazioni. Non formula diagnosi, non dà consigli terapeutici e non valuta rischi. Rivolgiti sempre a un professionista sanitario qualificato; in caso di emergenza chiama il 112.</p>
+
+<h2>21. Modifiche a questa informativa</h2>
+<p>Annunciamo nell’app ogni modifica rilevante prima che si applichi. La data in cima a questa pagina indica la versione in vigore.</p>
+<p class="top"><a href="#top">↑ Lingue</a></p>
+</section>
+
+<footer>VitaFolio · Olivier Chicoineau · Avenida 327, 6, 08860 Castelldefels, España · <a href="mailto:o.chicoineau@gmail.com">o.chicoineau@gmail.com</a></footer>
+</main>
+</body>
+</html>

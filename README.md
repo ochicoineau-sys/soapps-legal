@@ -13,6 +13,8 @@ repository need not be.
 |---|---|
 | Foundation Match — privacy policy | `https://ochicoineau-sys.github.io/soapps-legal/foundation-match/privacy/` |
 | Foundation Match — terms of use | `https://ochicoineau-sys.github.io/soapps-legal/foundation-match/terms/` |
+| VitaFolio — privacy policy | `https://ochicoineau-sys.github.io/soapps-legal/vitafolio/privacy/` |
+| VitaFolio — terms of use | `https://ochicoineau-sys.github.io/soapps-legal/vitafolio/terms/` |
 
 The privacy URL is the one Google Play requires in the store listing, and it is
 compiled into the app, so **it must not move**. If it ever has to, the app has
@@ -34,8 +36,9 @@ is served exactly as committed and no theme assets are injected.
 
 ## Source of truth
 
-The pages are authored in the Foundation Match repository at
-`foundation-match/docs/public/` and copied here. Edit them there, then copy —
+Each app's pages are authored in its own repository and copied here: Foundation Match at
+`foundation-match/docs/public/`, VitaFolio at `vitafolio/docs/public/` (whose `public/privacypolicy.html`,
+bundled in the app, is generated from the same source). Edit them there, then copy —
 so the wording stays next to the code whose behaviour it describes and can be
 audited against it.
 
